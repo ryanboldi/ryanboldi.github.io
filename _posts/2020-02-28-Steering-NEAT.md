@@ -5,7 +5,7 @@ subtitle: that is the question
 tags: [genetic algorithm, NEAT]
 ---
 
-I've always wanted to test how far I could take my limited knowledge of [Neuroevolution of augmenting topologies](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies). In this project, I attempt to program creatures that learn how to steer. They will be controlled by neural networks that are created through neuroevolution.
+I've always wanted to test how far I could take my limited knowledge of [Neuroevolution through augmenting topologies](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf). In this project, I attempt to program creatures that learn how to steer. They will be controlled by neural networks that are created through neuroevolution.
 
 ### What is a genetic algorithm?
 Simply put, it's a method to optimize a given problem that is based on Charles Darwin's 'Theory of Evolution by [natrual selection](https://en.wikipedia.org/wiki/Natural_selection)'.
@@ -20,8 +20,12 @@ end for
 ~~~~
 
 * #### **_Selection_**  
+
+
 After we test the genes to figure out how good they are (fitness) we select a few of the best performers to be bred into the next generation.
 My favorite way to do this is a method called [Roulette wheel selection](https://en.wikipedia.org/wiki/Fitness_proportionate_selection).
+![Roulette Wheel Selection](https://upload.wikimedia.org/wikipedia/commons/2/2a/Fitness_proportionate_selection_example.png){: .center-block :}  
+
 In fitness proportionate selection, the higher the fitness of a creature in the population, the more likely it is to be selected for the next population.   
 ~~~~
 for all members of population
@@ -38,18 +42,59 @@ end for
 ~~~~
 The above code just figures out the probability for each member of the population. Next, we need to choose the creatures randomly, with a higher probability of selection if their fitness is higher.
 ~~~~
-loop until new population is full
+loop until mating pool is full
     do this twice
         number = Random between 0 and 1
         for all members of population
             if number > probability but less than next probability 
                 then you have been selected
+                add to mating pool
         end for
     end
-    add offspring to new population
 end loop
 ~~~~
-After this is completed, we should have a new population made completely out of 
+After this is completed, we should have a new population that will be our mating pool for the next two steps.
+
+* #### **_Crossover_**   
+At this stage, we take the mating pool and breed them together to make a new random population. There are a few good ways to do this:
+    * Single-point crossover:  
+![Single-point crossover](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/OnePointCrossover.svg/231px-OnePointCrossover.svg.png){: .center-block :}  
+    * Two-point crossover:  
+![Two-point crossover](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/TwoPointCrossover.svg/226px-TwoPointCrossover.svg.png){: .center-block :}  
+    * Uniform crossover:  
+In uniform crossover, each gene is chosen from either parent with equal probability.
+
+General pseudocode for crossover:
+~~~~ 
+loop until new population is full
+    parent 1 = random from mating pool
+    parent 2 = random from mating pool
+    make child by crossover of parent 1 and 2
+    add child to new population
+end loop
+~~~~
+
+* #### **_Mutation_**
+At this stage, we must take the current population and make small random tweaks to their genes. The amount of mutation will be controlled by MUTATION_RATE.
+The random mutation of genes can be done in many different ways. In this project, I will simply reassign the gene with a new random value.
+
+~~~~
+loop over every member of new population
+    loop over every gene in this member
+        number = Random between 0 and 1
+        if number < MUTATION_RATE
+            replace gene with something random
+        end if
+    end loop
+end loop
+~~~~
+
+
+After we mutate the population, we test the fitness of the population again and repeat selection. I'll keep repeating these steps until the goal is met.
+
+* ## Implementation
+
+in [Neataptic](https://github.com/wagenaartje/neataptic), which is my library of choice for this project,
 
 
 ### What is NEAT?
