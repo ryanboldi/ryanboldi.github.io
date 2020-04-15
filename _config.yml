@@ -4,7 +4,7 @@
 title: Ryan Boldi
 
 # Short description of your site
-description: A website where i'll share all the projects I'm working on
+description: A website where I'll share all the projects I'm working on
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
@@ -15,11 +15,18 @@ description: A website where i'll share all the projects I'm working on
 # baseurl should be an empty string
 #baseurl: ""
 
+# path to my blog
+paginate_path: "/blog/page:num/"
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
+  Home: "redirect"
+  Blog: "blog"
+  Projects: "projects"
   About Me: "aboutme" 
+  
   #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #- Learn markdown: "http://www.markdowntutorial.com/"
   #Author's home: "http://deanattali.com"
@@ -69,12 +76,12 @@ social-network-links:
   email: "ryan.boldi123@gmail.com"
   github: ryanboldi
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: ryanboldi
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
-  youtube: user/UCRqRpI0Z9_8Ku8w87o0-kOQ
+# youtube: user/UCRqRpI0Z9_8Ku8w87o0-kOQ
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78

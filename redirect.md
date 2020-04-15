@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+sitemap: false
+---
+
 <html lang="en">
 <head>
     <!--REDIRECTS TO HOME PAGE-->
