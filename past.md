@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: Everything you'd ever want to know about me
+title: My Past
+subtitle: Where I've come from
 ---
 
 

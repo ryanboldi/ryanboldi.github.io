@@ -25,7 +25,10 @@ navbar-links:
   Home: "redirect"
   Blog: "blog"
   Projects: "projects"
-  About Me: "aboutme" 
+  About Me:
+    - Past: "past"
+    - Present: "present"
+    - Future: "future"
   
   #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #- Learn markdown: "http://www.markdowntutorial.com/"
