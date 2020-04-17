@@ -50,8 +50,11 @@ According to [(Stanley 2002)](http://nn.cs.utexas.edu/downloads/papers/stanley.e
 In the future, I intend to program my own implenetation of NEAT. For the time being, I will use this [fantastic implementation of NEAT](https://github.com/wagenaartje/neataptic), written by [Thomas Wagenaar](https://github.com/wagenaartje).
 
 ### Final result:
+Here's a GIF of the creatures after 27 generations of training:
+![27 generations](/img/steering/Steering27.gif)
+
 You can find more information about the specifics of the project [here](https://ryanboldi.github.io/Steering-NEAT/)
-or, you could just skip to seeing them in action [here](https://ryanboldi.github.io/Steering-NEAT/game.html)
+or, you could just skip to seeing them live [here](https://ryanboldi.github.io/Steering-NEAT/game.html)
 
 
 
