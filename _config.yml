@@ -24,7 +24,9 @@ paginate_path: "/blog/page:num/"
 navbar-links:
   Home: "redirect"
   Blog: "blog"
-  Projects: "projects"
+  Projects: 
+    - Platformer AI: "/projects/platformer-ai"
+    - Steering NEAT: "/projects/steering-neat"
   About Me:
     - Past: "past"
     - Present: "present"
