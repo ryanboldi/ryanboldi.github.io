@@ -1,6 +1,9 @@
-# Steering NEAT
-Using neuroevolution of augmenting topologies to train creatures to steer around obsticles, reaching a goal.
- 
+---
+layout: post
+title: Steering NEAT
+subtitle: Using neuroevolution of augmenting topologies to train creatures to steer around obsticles, reaching a goal.
+---
+
 [See the details of the project and train them on your own computer :)](https://ryanboldi.github.io/Steering-NEAT/) 
 
 ## Result after a few generations:
