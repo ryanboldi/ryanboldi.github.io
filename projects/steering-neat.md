@@ -6,8 +6,8 @@ subtitle: Using neuroevolution of augmenting topologies to train creatures to st
 
 [See the details of the project and train them on your own computer :)](https://ryanboldi.github.io/Steering-NEAT/) 
 
-## Result after a few generations:
-![steering gif](/projects/steering27.gif)
+### Result after a few generations of training
+![Steering NEAT](/projects/Steering27.gif)
 
 ### Files:
  - main.js: File that controls the game, startup and the draw function
