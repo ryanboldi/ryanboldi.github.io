@@ -15,3 +15,5 @@ Based on [this](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf) paper
 
 ### Result after a few generations of training
 ![Winning Player](/projects/Winning.gif)
+
+[Train it in your browser and see the evolution in real time!](https://ryanboldi.github.io/Platformer-AI/game.html)
