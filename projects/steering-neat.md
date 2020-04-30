@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Steering NEAT
 subtitle: Using neuroevolution of augmenting topologies to train creatures to steer around obsticles, reaching a goal.
 ---
