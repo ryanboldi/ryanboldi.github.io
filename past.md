@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Past
-subtitle: Where I've come from
+subtitle: Where I have come from
 ---
 
 
