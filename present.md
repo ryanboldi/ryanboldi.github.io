@@ -5,6 +5,19 @@ subtitle: Where I am right now
 bigimg: img/stock/Dubai.png
 ---
 
-I'm currently a high school junior living in Dubai, United Arab Emirates.
+I am currently a high school junior living in Dubai, United Arab Emirates.
+
+### ACADEMICS
+I am studying the [International Baccalaureate](https://www.ibo.org/about-the-ib/) curriculum.
+- Higher Level:
+    - Mathematics: Analysis and Approaches
+    - Physics
+    - Computer Science
+- Standard Level:
+    - Economics
+    - French
+    - English: Language and Literature
+
+
 
 

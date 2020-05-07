@@ -4,4 +4,4 @@ title: My Future
 subtitle: Where I am going
 ---
 
-I'm looking forward to attending a college that will allow me to further my passions. 
+In the future, I hope to be part of a team of researchers making breakthroughs in the fields of evolutionary algorithms, artificial intelligence or machine learning.
