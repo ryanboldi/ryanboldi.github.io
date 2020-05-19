@@ -2,7 +2,6 @@
 layout: page
 title: My Present
 subtitle: Where I am right now
-bigimg: img/stock/Dubai.png
 ---
 
 I am currently a high school junior living in Dubai, United Arab Emirates.
@@ -18,6 +17,6 @@ I am studying the [International Baccalaureate](https://www.ibo.org/about-the-ib
     - French
     - English: Language and Literature
 
-
+![dubai](img/stock/Dubai.png)
 
 
