@@ -3,10 +3,10 @@ layout: page
 title: Welcome!
 subtitle: Ryan Boldi's personal website
 ---
- I'm going to be posting some of my favorite projects here, as well as some blogs of my struggles while making those projects. Enjoy :)
+I'm going to be posting some of my favorite projects here, as well as some blogs of my struggles while making those projects. Enjoy :)
 <table style="margin-left:auto;margin-right:auto;"><tr>
-<td> 
-<img src="/img/home_page/ryan1.jpg" alt="A picture of Ryan during a leadership seminar" style="width: 300px;"/> </td>
+<td><img src="/img/home_page/public_speaking_downsized2.jpg" alt="Ryan speaking during his campaign for Head Boy 2020" style="width: 300px;"> 
+ </td>
 <td> 
 <img src="/img/home_page/Helping1.jpg" alt="Ryan helping another student come up with an implementation for her competition idea" style="width: 300px;"> </td>
 </tr>
@@ -14,5 +14,5 @@ subtitle: Ryan Boldi's personal website
 <td colspan="2">
 <img src="/img/home_page/stem3.jpg" alt="Ryan working with his team to build a spaghetti tower for a STEM competition" style="width: 620px;"> </td> </tr>
 <tr>
-<td><img src="/img/home_page/public_speaking_downsized2.jpg" alt="Ryan speaking during his campaign for Head Boy 2020" style="width: 300px;"></td>
+<td><img src="/img/home_page/ryan1.jpg" alt="A picture of Ryan during a leadership seminar" style="width: 300px;"/></td>
 </tr></table>
