@@ -17,4 +17,16 @@ Here's where the issue comes in: the shopping plastic bags are much smaller than
 ## Solution:
 My goal is to 3D-print some hooks that hook onto the outer edge of the trash can and and hold out the small trash bags without ripping. 
 
-I got out my calipers and measured the small lip of the can, booted up Fusion 360, and got to designing. 
+I got out my calipers and measured the small lip of the can, booted up Fusion 360, and got to designing.
+
+### Design timelapse:
+![Design timelapse](/img/blog/trash/designTimelapse.gif){: .center-block :}
+
+
+## Final result:
+I guess we could say that this was a pretty big success for such a simple project.
+![Design timelapse](/img/blog/trash/trash.jpg){: .center-block :}
+
+
+## Issues:
+They are still a little wobbly and sometimes fall off when replacing the bag. In later versions I will probably make the clip that clops onto the lips of the can slightly tighter.
