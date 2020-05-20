@@ -12,4 +12,7 @@ subtitle: Ryan Boldi's personal website
 </tr>
 <tr>
 <td colspan="2">
-<img src="/img/home_page/stem3.jpg" alt="Ryan working with his team to build a spaghetti tower for a STEM competition" style="width: 620px;"> </td> </tr></table>
+<img src="/img/home_page/stem3.jpg" alt="Ryan working with his team to build a spaghetti tower for a STEM competition" style="width: 620px;"> </td> </tr>
+<tr>
+<td><img src="/img/home_page/public_speaking_downsized2.jpg" alt="Ryan speaking during his campaign for Head Boy 2020" style="width: 300px;"></td>
+</tr></table>
