@@ -26,7 +26,7 @@ navbar-links:
   Blog: "blog"
   Projects: 
     - Steering NEAT: "/projects/steering-neat"
-    - Bouncer AI: "/projects/bouce-ai"
+    - Bouncer AI: "/projects/bounce-ai"
     - Platformer AI: "/projects/platformer-ai"
     - Free Thrower: "/projects/free-thrower"
     
