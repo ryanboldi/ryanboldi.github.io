@@ -28,6 +28,7 @@ navbar-links:
     - Platformer AI: "/projects/platformer-ai"
     - Steering NEAT: "/projects/steering-neat"
     - Free Thrower: "/projects/free-thrower"
+    - Bouncer AI: "/projects/bouce-ai"
   About Me:
     - Past: "past"
     - Present: "present"
