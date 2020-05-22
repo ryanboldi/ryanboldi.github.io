@@ -9,7 +9,7 @@ subtitle: Training an AI to bounce a ball to a given goal. The AI would need to 
 <img src='/bounce/game.png' alt="Game plan" width="800px">
 </p>
 
-## How the creature can gain (:smile:) or lose (:frowning_face:) fitness
+## How the creature can gain :) or lose :( fitness
 <p align="center">
 <img src='/bounce/Plan.png' alt="How the player can die" width="850px">
 </p>
