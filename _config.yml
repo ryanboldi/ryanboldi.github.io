@@ -25,10 +25,11 @@ navbar-links:
   Home: "redirect"
   Blog: "blog"
   Projects: 
-    - Platformer AI: "/projects/platformer-ai"
     - Steering NEAT: "/projects/steering-neat"
-    - Free Thrower: "/projects/free-thrower"
     - Bouncer AI: "/projects/bouce-ai"
+    - Platformer AI: "/projects/platformer-ai"
+    - Free Thrower: "/projects/free-thrower"
+    
   About Me:
     - Past: "past"
     - Present: "present"
