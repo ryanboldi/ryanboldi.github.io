@@ -12,7 +12,11 @@ I'm going to be posting some of my favorite projects here, as well as some blogs
 </tr>
 <tr>
 <td colspan="2">
-<img src="/img/home_page/stem3.jpg" alt="Ryan working with his team to build a spaghetti tower for a STEM competition" style="width: 620px;"> </td> </tr>
+<img src="/img/home_page/stem3.jpg" alt="Ryan working with his team to build a spaghetti tower for a STEM competition" style="width: 620px;"> </td> 
+</tr>
 <tr>
 <td colspan="2"><img src="/img/home_page/F11.jpg" alt="A picture of Ryan during 'F1 in Schools'" style="width: 620px;"/></td>
+<td colspan="2">
+<img src="/img/home_page/Win1.jpg" alt="Ryan and his team winning the Dubai College Diamond Diode STEM competition" style="width: 620px;"> 
+<td>
 </tr></table>
