@@ -14,5 +14,5 @@ I'm going to be posting some of my favorite projects here, as well as some blogs
 <td colspan="2">
 <img src="/img/home_page/stem3.jpg" alt="Ryan working with his team to build a spaghetti tower for a STEM competition" style="width: 620px;"> </td> </tr>
 <tr>
-<td><img src="/img/home_page/ryan1.jpg" alt="A picture of Ryan during a leadership seminar" style="width: 300px;"/></td>
+<td colspan="2"><img src="/img/home_page/F11.jpg" alt="A picture of Ryan during 'F1 in Schools'" style="width: 620px;"/></td>
 </tr></table>
