@@ -13,15 +13,22 @@ A fitness function is a function that returns how much reward a robot should be 
 
 This means whenever we want to evaluate a certain robot controller or morphology, we simply compute the distance off the ground of each robot, and this becomes its fitness. This means that the robots that jump higher will have a higher chance to reproduce, causing the robots to get better at jumping over many generations.
 
-Now, if the robot is having trouble jumping, it will NEVER recieve any fitness as it never leaves the ground. Common practice is to give a slightly smaller reward for doing something that leads to jumping. i.e. Putting both feet on ground. the new fintess function would look something like:
+Now, if the robot is having trouble jumping, it will NEVER recieve any fitness as it never leaves the ground. Common practice is to give a slightly smaller reward for doing something that leads to jumping. i.e. putting both feet on ground. The new fitness function would look something like:
 \\[ F = \begin{cases}
-        \text{Distance Off Ground} & \text{if Jumped,}\newline
+        \text{Distance Off Ground} & \text{if jumped,}\newline
         5 & \text{if both feet on ground,}\newline
         0 & \text{otherwise.}\newline
         \end{cases}
         \\]
 
+This means that creatures will first learn how to put both feet on the ground, as this gives them $5$ reward. This intermediary reward scaffolds the learning as having both your feet on the ground is a good starting point to learn how to jump.
 
 ### So what?
-Well, here is where the issue comes in. Sometimes, you might want to 
+Well, here is where the issue comes in. In my latest project, [Moon Lander](https://github.com/ryanboldi/Moon-Lander), I am trying to get robots to learn how to land on the moon. Here is the fitness function I use to evaluate them:
+\\[ F = \begin{cases}
+        \text{10} & \text{if landed,}\newline
+        \pi - (\theta_{g} - \theta_{L}) & \text{if crashed,}\newline
+        0 & \text{otherwise.}\newline
+        \end{cases}
+        \\]
 
