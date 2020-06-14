@@ -32,5 +32,5 @@ Well, here is where the issue comes in. In my latest project, [Moon Lander](http
         \end{cases}
         \\]
 
-Let's break this down. If the moon lander LANDS safely, it gets $$10$$ reward. If it hits the ground, but crashes, it gets a score that depends on it's orientation relative to the ground. If it is entirely parrallel to the ground, that means $$\theta_{g} = \theta{L}$$. This means the lander will receive $$\pi$$ reward. If the lander is entirely upside-down, that means $$\theta_{g}-\theta{L} = \pi$$, therefore it will get $$\pi - \pi = 0$$ reward.
+Let's break this down. If the moon lander LANDS safely, it gets $$10$$ reward. If it hits the ground, but crashes, it gets a score that depends on it's orientation relative to the ground. If it is entirely parrallel to the ground, that means $$\theta_{g} = \theta_{L}$$. This means the lander will receive $$\pi$$ reward. If the lander is entirely upside-down, that means $$\theta_{g}-\theta{L} = \pi$$, therefore it will get $$\pi - \pi = 0$$ reward.
 
