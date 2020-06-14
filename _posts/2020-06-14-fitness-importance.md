@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why fitness is so important.
+title: Why fitness is so important
 subtitle: And I'm not talking about physical fitness
 tags: [evolutionary algorithm]
 ---

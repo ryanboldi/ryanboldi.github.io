@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TRASH! click read more if you're hooked
+title: TRASH! (click read more if you're hooked)
 subtitle: Designing and 3D-Printing trash hooks
 tags: [3D Printing, CAD]
 ---
