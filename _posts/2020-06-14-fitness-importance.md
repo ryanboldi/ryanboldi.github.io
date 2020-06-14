@@ -32,9 +32,17 @@ Well, here is where the issue comes in. In my latest project, [Moon Lander](http
         \end{cases}
         \\]
 
-Let's break this down. If the moon lander LANDS safely, it gets $$10$$ reward. If it hits the ground, but crashes, it gets a score that depends on it's orientation relative to the ground. If it is entirely parrallel to the ground, that means $$\theta_{g} = \theta_{L}$$. This means the lander will receive $$\pi - 0 = \pi$$ reward. If the lander is entirely upside-down, that means $$\theta_{g}-\theta_{L} = \pi$$, therefore it will get $$\pi - \pi = 0$$ reward.
+Let's break this down. If the moon lander LANDS safely, it gets $$10$$ reward. If it hits the ground, but crashes, it gets a score that depends on it's orientation relative to the ground. If it is entirely parrallel to the ground, that means $$\theta_{g} = \theta_{L}$$. This means the lander will receive $$\pi - 0 = \pi$$ reward. If the lander is entirely upside-down, that means $$\theta_{g}-\theta_{L} = \pi$$, therefore it will get $$\pi - \pi = 0$$ reward. If the lander never lands, it gets 0 fitness.
 
 #### How's that an issue?
 They say an image is worth a thousand words, so how many words would a gif be worth?:
 <p stlye="text-align:center"><img src="/img/blog/fitness/bad.gif" alt="gif of landers falling without using boosters to receive small fitness instead of the main goal of landing.">
 
+After about 950 generations of evolution, I would expect the creatures to have learnt how to use their boosters by now. Lo and behold, they haven't. Why? I claim that it is because of how generous I have been when assigning them intermediary fitness. Landing and bouncing off the ground seems to give the creatures between $$2$$ and $$3$$ fitness, but landing correctly only gives about 4x that, $10$ fitness. This means that creatures only benefit a (proportionally) small benefit for doing a much more complex task (turning on booster and landing). This means they reach a local maxima in the fitness landscape, and just fall down aiming to get those sweet sweet intermediary points.
+
+Also, it doesn't help that some of them are lucky and survive the drop.
+
+### Conclusion
+In conclusion, we need to ensure that we are assigning the fitness of creatures to reward the behaviour we WANT, but also reward behaviour that leads to our goal behaviour. We don't want to reward intermediary behavior MORE than our goal. 
+
+So, in future projects, I am going to ensure I create the fitness functions very delicately, as they are very important in pushing evolution in the direction we want!
