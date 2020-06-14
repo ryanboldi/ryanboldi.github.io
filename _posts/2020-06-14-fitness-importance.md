@@ -9,8 +9,19 @@ Fitness functions are a VERY important part of evolutionary algorithms. I'll be 
 
 ### What is a fitness function?
 A fitness function is a function that returns how much reward a robot should be given for doing a certain task. Let's say we are training a robot to jump. the fitness function here could be:
-\(\require{color}\)
 \\[ F = \text{Distance Off Ground}\\]
 
 This means whenever we want to evaluate a certain robot controller or morphology, we simply compute the distance off the ground of each robot, and this becomes its fitness. This means that the robots that jump higher will have a higher chance to reproduce, causing the robots to get better at jumping over many generations.
+
+Now, if the robot is having trouble jumping, it will NEVER recieve any fitness as it never leaves the ground. Common practice is to give a slightly smaller reward for doing something that leads to jumping. i.e. Putting both feet on ground. the new fintess function would look something like:
+\\[ F = \begin{cases}
+        \text{Distance Off Ground} & \text{if Jumped,}\\
+        5 & \text{if both feet on ground,}\\
+        0 & \text{otherwise.}
+        \end{cases}
+        \\]
+
+
+### So what?
+Well, here is where the issue comes in. Sometimes, you might want to 
 
