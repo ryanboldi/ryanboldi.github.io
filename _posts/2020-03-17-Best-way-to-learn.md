@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is the best way to learn
-subtitle: teaching myself a unsupervised learning technique 
+subtitle: teaching myself an unsupervised learning technique 
 tags: [NEAT, Learning, javascript]
 ---
 
