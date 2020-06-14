@@ -36,5 +36,5 @@ Let's break this down. If the moon lander LANDS safely, it gets $$10$$ reward. I
 
 #### How's that an issue?
 They say an image is worth a thousand words, so how many words would a gif be worth?:
-<img src="/img/blog/fitness/bad.gif" alt="gif of landers falling without using boosters to receive small fitness instead of the main goal of landing." style="width: 620px;">
+<p stlye="text-align:center"><img src="/img/blog/fitness/bad.gif" alt="gif of landers falling without using boosters to receive small fitness instead of the main goal of landing.">
 
