@@ -27,10 +27,10 @@ This means that creatures will first learn how to put both feet on the ground, a
 Well, here is where the issue comes in. In my latest project, [Moon Lander](https://github.com/ryanboldi/Moon-Lander), I am trying to get robots to learn how to land on the moon. Here is the fitness function I use to evaluate them:
 \\[ F = \begin{cases}
         \text{10} & \text{if landed,}\newline
-        \pi - \abs{\theta_{g} - \theta_{L}} & \text{if crashed,}\newline
+        \pi - \absolutevalue{\theta_{g} - \theta_{L}} & \text{if crashed,}\newline
         0 & \text{otherwise.}\newline
         \end{cases}
         \\]
 
-Let's break this down. If the moon lander LANDS safely, it gets $$10$$ reward. If it hits the ground, but crashes, it gets a score that depends on it's orientation relative to the ground. If it is entirely parrallel to the ground, that means $$\theta_{g} = \theta{L}$$. This means the lander will receive $$/pi$$ reward. If the lander is entirely upside-down, that means $$\theta_{g}-\theta{L} = \pi$$, therefore it will get $$/pi - /pi = 0$$ reward.
+Let's break this down. If the moon lander LANDS safely, it gets $$10$$ reward. If it hits the ground, but crashes, it gets a score that depends on it's orientation relative to the ground. If it is entirely parrallel to the ground, that means $$\theta_{g} = \theta{L}$$. This means the lander will receive $$\pi$$ reward. If the lander is entirely upside-down, that means $$\theta_{g}-\theta{L} = \pi$$, therefore it will get $$\pi - \pi = 0$$ reward.
 
