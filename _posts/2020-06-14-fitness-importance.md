@@ -27,7 +27,7 @@ This means that creatures will first learn how to put both feet on the ground, a
 Well, here is where the issue comes in. In my latest project, [Moon Lander](https://github.com/ryanboldi/Moon-Lander), I am trying to get robots to learn how to land on the moon. Here is the fitness function I use to evaluate them:
 \\[ F = \begin{cases}
         \text{10} & \text{if landed,}\newline
-        \pi - (\theta_{g} - \theta_{L}) & \text{if crashed,}\newline
+        \pi - \abs{\theta_{g} - \theta_{L}} & \text{if crashed,}\newline
         0 & \text{otherwise.}\newline
         \end{cases}
         \\]
