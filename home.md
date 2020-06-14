@@ -19,4 +19,8 @@ I'm going to be posting some of my favorite projects here, as well as some blogs
 <tr>
 <td colspan="2">
 <img src="/img/home_page/Win1.jpg" alt="Ryan and his team winning the Dubai College Diamond Diode STEM competition" style="width: 620px;"> </td>
+</tr>
+<tr>
+<td colspan="2">
+<img src="/img/home_page/Speaking.jpg" alt="Ryan being interviewed about life in the UAE" style="width: 620px;"> </td>
 </tr></table>
