@@ -38,4 +38,3 @@ I've also been infront of audiences since __six__ --->>
 And finally, combining my love for programming and for public speaking, I gave a ted talk at __eleven__ about the benefits of teaching children to program at school.\\
 \\
 "Why we should get with the program"
-

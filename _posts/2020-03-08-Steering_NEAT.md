@@ -2,7 +2,7 @@
 layout: post
 title: To steer, or not to steer?
 subtitle: That is the quesiton
-tags: [genetic algorithm, NEAT, Neuroevolution]
+tags: [evolutionary algorithm, NEAT, Neuroevolution]
 ---
 
 I've always wanted to test how far I could take my limited knowledge of [Neuroevolution through augmenting topologies](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf). In this project, I attempt to program creatures that learn how to steer. They will be controlled by neural networks that are created through neuroevolution.
