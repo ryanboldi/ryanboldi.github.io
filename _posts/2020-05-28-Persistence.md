@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Why fitness is so important
-subtitle: And I'm not talking about physical fitness
+title: Persistence is key
+subtitle: A genetic algorithm to find numbers with high multiplicative persistence.
 tags: [evolutionary algorithm]
 ---
 # Multiplicative Persistence
- A genetic algorithm to find a number with very large multiplicative persistence: (how long it takes to boil down to a single digit)
+What is MP? It is the amount of calculations it takes to 'boil' a multiple digit number down into a single digit.
+For example:
  * 123 -> 1x2x3 = 6 (so this has MP of 1)
- *  6788 -> 6x7x8x8 = 2688 -> 2x6x8x8 = 768 -> 7x6x8 = 336 -> 3x3x6 = 54 -> 5x4 = 20 -> 2x0 = 0 (that's 6) 
+ * 6788 -> 6x7x8x8 = 2688 -> 2x6x8x8 = 768 -> 7x6x8 = 336 -> 3x3x6 = 54 -> 5x4 = 20 -> 2x0 = 0 (that's 6) 
 
 the official record for the smallest number with mulptiplicative persistence of 11 is:
 **277777788888899**
@@ -15,7 +16,7 @@ the official record for the smallest number with mulptiplicative persistence of 
 
 I let my genetic algorithm search through all possible 15 digit numbers to see how close I could get to the real record.
 
-This is the log after training for 50 generations. The Algorithm discorvers a solution with MP of 10 within one generation. 
+This is the log after training for 50 generations. The Algorithm discovers a solution with MP of 10 within one generation. 
 ~~~
 gen: 0 -> best: 4 || answer: 111122344688889
 gen: 1 -> best: 10 || answer: 122333344666778
