@@ -24,7 +24,7 @@ Now, if the robot is having trouble jumping, it will NEVER recieve any fitness a
 This means that creatures will first learn how to put both feet on the ground, as this gives them $$5$$ reward. This intermediary reward scaffolds the learning as having both your feet on the ground is a good starting point to learn how to jump.
 
 ### So what?
-Well, here is where the issue comes in. In my latest project, [Moon Lander](https://github.com/ryanboldi/Moon-Lander), I am trying to get robots to learn how to land on the moon. Here is the fitness function I use to evaluate them:
+Well, here is where the issue comes in. In my latest project, [Moon Lander](/projects/moon-lander/), I am trying to get robots to learn how to land on the moon. Here is the fitness function I use to evaluate them:
 \\[ F = \begin{cases}
         \text{10} & \text{if landed,}\newline
         \pi - \lvert\theta_{g} - \theta_{L}\rvert & \text{if crashed,}\newline
