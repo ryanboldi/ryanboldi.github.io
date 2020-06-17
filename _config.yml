@@ -26,10 +26,12 @@ navbar-links:
   Blog: "blog"
   Projects: 
     - Steering NEAT: "/projects/steering-neat"
+    - Moon Lander: "/projects/moon-lander"
     - Bouncer AI: "/projects/bounce-ai"
     - Platformer AI: "/projects/platformer-ai"
     - Free Thrower: "/projects/free-thrower"
     
+
   About Me:
     - Past: "past"
     - Present: "present"
