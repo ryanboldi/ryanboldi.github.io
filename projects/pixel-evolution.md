@@ -16,7 +16,8 @@ Although these are very important features of evolutionary algorithms, we don't 
 Here's my attempt at doing that:
 
 # PIXEL EVOLUTION
-
+[Github page](https://github.com/ryanboldi/Pixel-Evolution)
+[Watch the evolution happen in your browser!](https://ryanboldi.github.io/Pixel-Evolution/)
 
 ### Goal:
 * Evolve sufficiently intelligent creatures without an explicit fitness function, similar to how intelligence evolved in nature.
