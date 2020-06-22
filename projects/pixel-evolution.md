@@ -16,3 +16,19 @@ Although these are very important features of evolutionary algorithms, we don't 
 Here's my attempt at doing that:
 
 # PIXEL EVOLUTION
+
+
+### Goal:
+* Evolve sufficiently intelligent creatures without an explicit fitness function, similar to how intelligence evolved in nature.
+* Simplicity was key for this project, as the more rules I put in, the more chance my human nature biases the outcome of the project.
+
+### Plan:
+As with most of my other projects, here's a quick doodle plan for this project:
+![pixel evolution plan](/img/pixel-evolution/plan.png)
+I wanted to include a way for creature's behavior to be better than others, while not explicitly measuring their fitnesses. To do this, we have **food** particles floating around the world, and if the creature eats this food, they immediately reproduce and spread their genetic information throughout the population by replacing a random individual.
+
+So, due to the individual nature of the reproduction scheme, we do not need generations as now each creature will have its own children and grandchildren, much like humans and other animals on Earth.
+
+Creatures have the capacity to live forever, although to be able to do this, they must be eating food very consistently or their genetic makeup will go extinct. This is because everytime one of the other creatures eats food, you have a small chance to be replaced by their children. 
+
+Here is what they looked like after about 6000 **timesteps**:
