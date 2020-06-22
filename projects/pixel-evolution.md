@@ -31,4 +31,27 @@ So, due to the individual nature of the reproduction scheme, we do not need gene
 
 Creatures have the capacity to live forever, although to be able to do this, they must be eating food very consistently or their genetic makeup will go extinct. This is because everytime one of the other creatures eats food, you have a small chance to be replaced by their children. 
 
-Here is what they looked like after about 6000 **timesteps**:
+### Here is what they looked like right when they are initialized:
+ ![random pixels](/img/pixel-evolution/random1.gif)
+
+ All of their brains are randomly instantiated Neural Networks, and through this evolutionary process, the neural networks that perform better have more children, and thus spread their good genes across the population.
+
+I let evolution run for a few thousand **timesteps** (or 5 mins of training time). Here is the result:
+ ![evolved pixels](/img/pixel-evolution/evolved2.gif)
+
+ As we can see, the creature's have "learned" to move downwards constantly, eating as much food as they can see in their eyesight. I claim that all the creatures moving downwards have evolved from one ancestral pixel than had the "move down" genes (or some varient of it). We could think of this like a **species** of pixels. We can also see a few pixels moving to the left. These would be part of a different species.
+
+To test this claim, I re-evolved the creatures from the beginning with different random conditions:
+
+ ![evolved pixels 2](/img/pixel-evolution/evolved1.gif)
+This is a really interesting result, because we can now see that the majority of pixels are moving left, eating any food that they can see. There are a few creatures who move upward aswell, representing two new species.
+
+From these results, we can see that the creatures very quickly speciate due to a common ancestor that knocked out all the competition. 
+
+
+### Issues / Further comments
+Something I noticed when I dropped the creature population from 100 to 15 is that sometimes they get "stuck". This is because none of the 15 creatures ever actually eat a food, so they continute going in circles, no food is eaten, so no reproduction happens, and evolution halts. 
+In the future, I plan to create a new project where each pixel has a set of energy, and has to eat a certain amount of food to replenish that energy. If it goes in circles for too long without eating, it will be killed off and replaced with a random pixel.
+
+Something like this:
+ ![energy plan 2](/img/pixel-evolution/planEnergy.png)
