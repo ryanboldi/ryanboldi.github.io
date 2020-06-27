@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tower Destroyer
-subtitle: Evolving a robot to destory a tower. Comparing scaffolding-based learning to non scaffolded learning.
+subtitle: Evolving a robot to destory a tower. Comparing scaffolding based learning to non scaffolded learning.
 ---
 
 
