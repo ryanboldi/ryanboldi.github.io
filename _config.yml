@@ -29,7 +29,7 @@ navbar-links:
     - Pixel Evolution: "/projects/pixel-evolution"
     - Moon Lander: "/projects/moon-lander"
     - Tower Destroyer: "/projects/tower-destroyer"
-    - Evolving Shapes: "/projects/evolving-shapes"
+    - Evolving Shapes: "/projects/struct/evolving-shapes"
     - Bouncer AI: "/projects/bounce-ai"
     - Platformer AI: "/projects/platformer-ai"
     - Free Thrower: "/projects/free-thrower"
