@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Evolvutionary Shapes
+title: Evolving Shapes
 subtitle: Evolving and 3D printing objects that land the same way &mdash;no matter how they are dropped
 ---
 I'm sure we have all seen the "Buttered Cat Paradox": \
