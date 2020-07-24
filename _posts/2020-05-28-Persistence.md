@@ -247,5 +247,5 @@ n number
 18 111277777788888899
 
 
-#### Source:
+#### References:
 Weisstein, Eric W. "Multiplicative Persistence." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/MultiplicativePersistence.html
