@@ -4,7 +4,7 @@ title: My Present
 subtitle: Where I am right now
 ---
 
-I am currently a high school junior living in Dubai, United Arab Emirates.
+I am currently a high school Senior living in Dubai, United Arab Emirates.
 
 ### ACADEMICS
 I am studying the [International Baccalaureate](https://www.ibo.org/about-the-ib/) curriculum.
