@@ -23,8 +23,8 @@ Dockerfile text eol=lf
 # General multimedia files
 *.jpg binary
 *.jpeg binary
-*.gif filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
+*.gif binary
+*.png binary
 *.t3x binary
 *.t3d binary
 *.exe binary
