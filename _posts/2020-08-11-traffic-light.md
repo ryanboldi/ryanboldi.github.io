@@ -11,4 +11,4 @@ There is nothing more motivating than completing a project, so I really wanted a
 
 As usual, my first step was to brainstorm. I decided I wanted the game to be as simple as possible, so I searched through my memories for games I played as a child. After deciding on "Red Light, Green Light", I pulled out my trusty drawing tablet and started to tinker with some ideas:
 
-<p stlye="text-align:center"><img src="/img/TrafficLight/plan.png" alt="Red Light, Green Light Plan"></p>
+![Red Light Green Light Plan](/img/TrafficLight/plan.png){: .center-block :}
