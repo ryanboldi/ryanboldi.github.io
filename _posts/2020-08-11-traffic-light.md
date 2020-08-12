@@ -2,7 +2,7 @@
 layout: post
 title: Red Light, Green Light
 subtitle: AI in under 3 hours
-tags: [evolutionary algorithm, NEAT]
+tags: [evolutionary algorithm]
 ---
 
 For the past few weeks, I have been working on some programming projects for school. I'm writing the experiment for my Extended Essay and my math Internal Assessment in python, and my CS Internal Assessment in JavaScript. Consequently, I haven't had much time to work on any personal projects to keep me grounded. 
