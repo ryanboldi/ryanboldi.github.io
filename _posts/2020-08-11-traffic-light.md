@@ -16,3 +16,6 @@ As usual, my first step was to brainstorm. I decided I wanted the game to be as 
 After this, I set a timer and began working. I finished the project in just under 2 hours and a half (including planning time) spread out over 2 days. Here was the final result after a few generations of evolution:
 
 ![Evolved Creatures](/img/TrafficLight/evolved.gif){: .center-block :}
+
+
+[See the evolution in real time!](https://ryanboldi.github.io/RedLightGreenLight/)
