@@ -26,10 +26,10 @@ navbar-links:
   Blog: "blog"
   Projects: 
     - Steering NEAT: "/projects/steering-neat"
+    - Buttered Cats: "/projects/struct/evolving-shapes"
     - Pixel Evolution: "/projects/pixel-evolution"
     - Moon Lander: "/projects/moon-lander"
     - Tower Destroyer: "/projects/tower-destroyer"
- #   - Evolving Shapes: "/projects/struct/evolving-shapes"
     - Bouncer AI: "/projects/bounce-ai"
     - Platformer AI: "/projects/platformer-ai"
     - Free Thrower: "/projects/free-thrower"
