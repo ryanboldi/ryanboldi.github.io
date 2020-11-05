@@ -26,6 +26,7 @@ navbar-links:
   Blog: "blog"
   Projects: 
     - Steering NEAT: "/projects/steering-neat"
+    - Robot Arm: "/projects/robot-arm"
     - Buttered Cats: "/projects/struct/evolving-shapes"
     - Pixel Evolution: "/projects/pixel-evolution"
     - Moon Lander: "/projects/moon-lander"
