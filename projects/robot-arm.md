@@ -4,6 +4,8 @@ title: Robot Arm
 subtitle: Using symbolic regression to control a robot's arm.
 ---
 
+This is a project attempting to create a robotic arm that can follow a user given trajectory. Instead of doing some complex math to figure out exactly how the different arm segments should move, I will attempt to use Genetic Evolution to evolve a good controller for the robot arm. 
+
 [Run the project in your browser](https://ryanboldi.github.io/RobotArm/) 
 
 (Start drawing at the tip of the robot's arm and release mouse at the end of the path)
@@ -20,4 +22,8 @@ The output is a somewhat illegible function that is (if done well) an accurate r
 #### Here is how I attempted to implement it in this project:
 ![Robot Arm Planning](RobotArmPlanning.png)
 
+#### How I compared two different paths:
+![Frechet](RobotArmPlanningFrechet.png)
 
+#### Example Result:
+![Result](RobotArmResult.gif)
