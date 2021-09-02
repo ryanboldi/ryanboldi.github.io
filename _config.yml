@@ -4,7 +4,7 @@
 title: Ryan Boldi
 
 # Short description of your site
-description: A website where I'll share all the projects I'm working on
+#description: Ryan's Personal Website
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
@@ -34,11 +34,12 @@ navbar-links:
   #  - Bouncer AI: "/projects/bounce-ai"
   # - Platformer AI: "/projects/platformer-ai"
   #  - Free Thrower: "/projects/free-thrower"
-    
-  About Me:
+  Research: "research"
+  Publications: ""
+
   #  - Past: "past"
-    - Present: "present"
-    - Future: "future"
+  #  - Present: "present"
+  #  - Future: "future"
   
   #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #- Learn markdown: "http://www.markdowntutorial.com/"
@@ -85,11 +86,11 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
-  email: "ryan.boldi123@gmail.com"
+  rss: false
+  email: "rbahlousbold@umass.edu"
   github: ryanboldi
 #  reddit: yourname
-  linkedin: ryanboldi
+#  linkedin: ryanboldi
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Welcome!
+title: Home
 subtitle: Ryan Boldi's personal website
 ---
-I'm going to be posting some of my favorite projects here, as well as some blogs of my struggles while making those projects. Enjoy :)
+<!--
 <table style="margin-left:auto;margin-right:auto;"><tr>
 <td><img src="/img/home_page/public_speaking_downsized2.jpg" alt="Ryan speaking during his campaign for Head Boy 2020" style="width: 300px;"> 
 </td>
@@ -27,3 +27,4 @@ I'm going to be posting some of my favorite projects here, as well as some blogs
 <td colspan="2">
 <img src="/img/home_page/Speaking.jpg" alt="Ryan being interviewed about life in the UAE" style="width: 620px;"> </td>
 </tr></table>
+-->
