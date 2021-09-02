@@ -23,7 +23,7 @@ paginate_path: "/blog/page:num/"
 # List of links in the navigation bar
 navbar-links:
   Home: "redirect"
-  Blog: "blog"
+  #Blog: "blog"
   Projects: 
     - Steering NEAT: "/projects/steering-neat"
     - Robot Arm: "/projects/robot-arm"
@@ -31,13 +31,12 @@ navbar-links:
     - Pixel Evolution: "/projects/pixel-evolution"
     - Moon Lander: "/projects/moon-lander"
     - Tower Destroyer: "/projects/tower-destroyer"
-    - Bouncer AI: "/projects/bounce-ai"
-    - Platformer AI: "/projects/platformer-ai"
-    - Free Thrower: "/projects/free-thrower"
+  #  - Bouncer AI: "/projects/bounce-ai"
+  # - Platformer AI: "/projects/platformer-ai"
+  #  - Free Thrower: "/projects/free-thrower"
     
-
   About Me:
-    - Past: "past"
+  #  - Past: "past"
     - Present: "present"
     - Future: "future"
   
@@ -104,9 +103,9 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
