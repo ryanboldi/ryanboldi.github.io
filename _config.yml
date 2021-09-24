@@ -71,7 +71,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: Ryan's Rambling  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: Where I'll give a (somewhat uncoordinated) view into my mind
 permalink: /blog/:year/:title/
 
 # Pagination
