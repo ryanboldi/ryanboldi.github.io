@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: University of Massachusetts, Amherst
+description: University of Massachusetts Amherst
 
 profile:
   align: right
@@ -17,4 +17,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Computer Science student at the Univeristy of Massachusetts, Amherst. My research interests include Neuroevolution, Genetic Programming, Artificial Life, Reinforcement Learning and Robotics.
+I am currently a Computer Science student at the Univeristy of Massachusetts Amherst. My research interests include Neuroevolution, Genetic Programming, Artificial Life, Reinforcement Learning and Robotics.
