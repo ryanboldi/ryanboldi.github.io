@@ -7,4 +7,4 @@ importance: 1
 category: fun
 ---
 
-![Evolve them in your browser!](https://ryanboldi.github.io/Steering-NEAT/game.html)
+[Evolve them in your browser!](https://ryanboldi.github.io/Steering-NEAT/game.html)
