@@ -1,11 +1,11 @@
 "Ding":
-  - firstname: ["Li" "L." "Ding"]
+  - firstname: ["Li", "L."]
     url: https://ld-ing.github.io/
 
 "Spector":
-  - firstname: ["Lee" "L." "Spector"]
+  - firstname: ["Lee", "L."]
     url: https://lspector.github.io/
 
 "Helmuth":
-  - firstname: ["Thomas" "T." "Helmuth"]
+  - firstname: ["Thomas", "T."]
     url: http://cs.hamilton.edu/~thelmuth/publications.html
