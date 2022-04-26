@@ -1,3 +1,25 @@
+GIT
+  remote: https://github.com/jekyll/jekyll.git
+  revision: 7c28eb5f7ec17f7d8d34d4e37ccbd42ff3fb8daf
+  specs:
+    jekyll (4.2.2)
+      addressable (~> 2.4)
+      colorator (~> 1.0)
+      em-websocket (~> 0.5)
+      i18n (~> 1.0)
+      jekyll-sass-converter (~> 2.0)
+      jekyll-watch (~> 2.0)
+      kramdown (~> 2.3, >= 2.3.1)
+      kramdown-parser-gfm (~> 1.0)
+      liquid (~> 4.0)
+      mercenary (>= 0.3.6, < 0.5)
+      pathutil (~> 0.9)
+      psych (~> 3.3)
+      rouge (~> 3.0)
+      safe_yaml (~> 1.0)
+      terminal-table (>= 1.8, < 4.0)
+      webrick (~> 1.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -55,21 +77,6 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    jekyll (4.2.0)
-      addressable (~> 2.4)
-      colorator (~> 1.0)
-      em-websocket (~> 0.5)
-      i18n (~> 1.0)
-      jekyll-sass-converter (~> 2.0)
-      jekyll-watch (~> 2.0)
-      kramdown (~> 2.3)
-      kramdown-parser-gfm (~> 1.0)
-      liquid (~> 4.0)
-      mercenary (~> 0.4.0)
-      pathutil (~> 0.9)
-      rouge (~> 3.0)
-      safe_yaml (~> 1.0)
-      terminal-table (~> 2.0)
     jekyll-email-protect (1.1.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
@@ -114,6 +121,7 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    psych (3.3.2)
     public_suffix (4.0.6)
     racc (1.5.2)
     rb-fsevent (0.11.0)
@@ -141,7 +149,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll
+  jekyll!
   jekyll-email-protect
   jekyll-feed
   jekyll-github-metadata
@@ -154,4 +162,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.2.27
+   2.2.28
