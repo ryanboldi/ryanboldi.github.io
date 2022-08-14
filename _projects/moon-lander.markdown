@@ -8,18 +8,15 @@ importance: 2
 category: fun
 ---
 
-# Moon Lander
- Training AI agents to land a spaceship.
-
 # Inputs: What the Landers "see"
-![inputs](/assets/img/moonLander/inputs.png)
-![eyes](/assets/img/moonLander/eyes.png)
+<img src='/assets/img/moonLander/inputs.png' alt="inputs" width="800"/>
+<img src='/assets/img/moonLander/eyes.png' alt="eyes" width="800"/>
 
 # Outputs: What the Landers can do
-![outputs](/assets/img/moonLander/outputs.png)
+<img src='/assets/img/moonLander/outputs.png' alt="outputs" width="800"/>
 
 # Fitness: How the landers are judged
-![fitness](/assets/img/moonLander/plan.png)
+<img src='/assets/img/moonLander/plan.png' alt="plan" width="800"/>
 
 
 # Final result of evolution:
