@@ -28,7 +28,7 @@ Here's my attempt at doing that:
 
 ### Plan:
 As with most of my other projects, here's a quick doodle plan for this project:
-![pixel evolution plan](/img/pixel-evolution/plan.png)
+<img src='/img/pixel-evolution/plan.png' alt="plan" width="800"/>
 I wanted to include a way for creature's behavior to be better than others, while not explicitly measuring their fitnesses. To do this, we have **food** particles floating around the world, and if the creature eats this food, they immediately reproduce and spread their genetic information throughout the population by replacing a random individual.
 
 So, due to the individual nature of the reproduction scheme, we do not need generations as now each creature will have its own children and grandchildren, much like humans and other animals on Earth.
@@ -58,4 +58,4 @@ Something I noticed when I dropped the creature population from 100 to 15 is tha
 In the future, I plan to create a new project where each pixel has a set of energy, and has to eat a certain amount of food to replenish that energy. If it goes in circles for too long without eating, it will be killed off and replaced with a random pixel.
 
 Something like this:
- ![energy plan 2](/assets/img/pixel-evolution/planEnergy.png)
+<img src='/img/pixel-evolution/plan-energy.png' alt="plan energy" width="800"/>
