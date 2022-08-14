@@ -3,7 +3,7 @@ layout: page
 title: Moon Lander
 description: Training a neural network to land on the "Moon"
 importance: 1
-img: /assets/img/moonlander/Thumbnail.png
+img: /assets/img/moonLander/Thumbnail.png
 importance: 2
 category: fun
 ---
