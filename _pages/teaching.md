@@ -1,10 +1,12 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: service
 description: 
 nav: true
 ---
+
+## Teaching
 
 I am currently teaching programming at a Silicon Valley based academy named [X-Camp Academy](https://x-camp.academy/#/)
 
@@ -17,3 +19,6 @@ I am currently teaching programming at a Silicon Valley based academy named [X-C
 * USACO Bronze Booster for Fall 201P (Python)
 
 
+## Activities
+
+I am also the current president of ACM Machine Learning Club at the University of Massachusetts Amherst.
