@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: Recent Publications
-years: [2022]
+years: [2022, 2023]
 nav: true
 ---
 
@@ -15,3 +15,13 @@ nav: true
 {% endfor %}
 
 </div>
+
+<div class="Under Review">
+
+{% for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% biblography -f review -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div>
+
