@@ -11,7 +11,7 @@
   Ryan  Boldi
 
 
-  | blog
+  | Pixel Evolution
 
 </title>
 <meta name="description" content="Also goes by Ryan Bahlous-Boldi">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧬</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/pixel_evolution/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -116,8 +116,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/projects/">
                 projects
@@ -170,18 +168,75 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>Where I'll give a (somewhat uncoordinated) view into my mind</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Pixel Evolution</h1>
+    <p class="post-description">Real time neuroevolution without explicit fitness functions or generations</p>
+  </header>
 
+  <article>
+    <p>Most of the evolutionary projects that I have been working on have consisted of two very important features of evolutionary algoritms:</p>
+<ul>
+  <li>Fitness Function
+    <ul>
+      <li>This allows creatures’ performance to be assigned a single number or rank that shows how good the behavior of this creature is.</li>
+      <li>For example, \[ F = \text{Distance from Origin}\]</li>
+      <li>This function would promote creatures to move away from the origin, as the ones that do move away from the origin have a higher chance to reproduce and spread their genetic makeup.</li>
+    </ul>
+  </li>
+  <li>Generations
+    <ul>
+      <li>This gives the evolutionary algorithm a chance to evaluate creatures, sort them by fitness, and then breed the higher fitness creatures together to create the next generation.</li>
+    </ul>
+  </li>
+</ul>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>Although these are very important features of evolutionary algorithms, we don’t see any explicit fitness functions in real life. We also do not see any explicit generations where all creatures are stopped, evaluated, and bred. This intruiged me, because I wanted to figure out how the evolution happened over the course of our history. 
+Here’s my attempt at doing that:</p>
 
-  
+<h1 id="pixel-evolution">PIXEL EVOLUTION</h1>
+<p><a href="https://github.com/ryanboldi/Pixel-Evolution">Github page</a>
+<a href="https://ryanboldi.github.io/Pixel-Evolution/">Watch the evolution happen in your browser!</a></p>
 
+<h3 id="goal">Goal:</h3>
+<ul>
+  <li>Evolve sufficiently intelligent creatures without an explicit fitness function, similar to how intelligence evolved in nature.</li>
+  <li>Simplicity was key for this project, as the more rules I put in, the more chance my human nature biases the outcome of the project.</li>
+</ul>
+
+<h3 id="plan">Plan:</h3>
+<p>As with most of my other projects, here’s a quick doodle plan for this project:
+<img src="/assets/img/pixel-evolution/plan.png" alt="plan" width="800" />
+I wanted to include a way for creature’s behavior to be better than others, while not explicitly measuring their fitnesses. To do this, we have <strong>food</strong> particles floating around the world, and if the creature eats this food, they immediately reproduce and spread their genetic information throughout the population by replacing a random individual.</p>
+
+<p>So, due to the individual nature of the reproduction scheme, we do not need generations as now each creature will have its own children and grandchildren, much like humans and other animals on Earth.</p>
+
+<p>Creatures have the capacity to live forever, although to be able to do this, they must be eating food very consistently or their genetic makeup will go extinct. This is because everytime one of the other creatures eats food, you have a small chance to be replaced by their children.</p>
+
+<h3 id="here-is-what-they-looked-like-right-when-they-are-initialized">Here is what they looked like right when they are initialized:</h3>
+<p><img src="/assets/img/pixel-evolution/random1.gif" alt="random pixels" /></p>
+
+<p>All of their brains are randomly instantiated Neural Networks, and through this evolutionary process, the neural networks that perform better have more children, and thus spread their good genes across the population.</p>
+
+<p>I let evolution run for a few thousand <strong>timesteps</strong> (or 5 mins of training time). Here is the result:
+ <img src="/assets/img/pixel-evolution/evolved2.gif" alt="evolved pixels" /></p>
+
+<p>As we can see, the creature’s have “learned” to move downwards constantly, eating as much food as they can see in their eyesight. I claim that all the creatures moving downwards have evolved from one ancestral pixel than had the “move down” genes (or some varient of it). We could think of this like a <strong>species</strong> of pixels. We can also see a few pixels moving to the left. These would be part of a different species.</p>
+
+<p>To test this claim, I re-evolved the creatures from the beginning with different random conditions:</p>
+
+<p><img src="/assets/img/pixel-evolution/evolved1.gif" alt="evolved pixels 2" />
+This is a really interesting result, because we can now see that the majority of pixels are moving left, eating any food that they can see. There are a few creatures who move upward aswell, representing two new species.</p>
+
+<p>From these results, we can see that the creatures very quickly speciate due to a common ancestor that knocked out all the competition.</p>
+
+<h3 id="issues--further-comments">Issues / Further comments</h3>
+<p>Something I noticed when I dropped the creature population from 100 to 15 is that sometimes they get “stuck”. This is because none of the 15 creatures ever actually eat a food, so they continute going in circles, no food is eaten, so no reproduction happens, and evolution halts. 
+In the future, I plan to create a new project where each pixel has a set of energy, and has to eat a certain amount of food to replenish that energy. If it goes in circles for too long without eating, it will be killed off and replaced with a random pixel.</p>
+
+<p>Something like this:
+<img src="/assets/img/pixel-evolution/plan-energy.png" alt="plan energy" width="800" /></p>
+
+  </article>
 
 </div>
 
