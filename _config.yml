@@ -7,7 +7,7 @@ first_name: Ryan
 middle_name:
 last_name: Boldi
 email: rbahlousbold@umass.edu
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: AKA: Ryan Bahlous-Boldi # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 icon: 🧬 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
