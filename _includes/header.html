@@ -43,11 +43,11 @@
           </li>
           {% endif %}
           <!-- Other pages -->
+          <a class="page-link" href="{{ '/boldi-cv.pdf' | prepend: site.baseurl | prepend: site.url }}">cv</a>
           {% assign sorted_pages = site.pages | sort: "title" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           {% if p.dropdown %}
-          <a class="page-link" href="{{ '/boldi-cv.pdf' | prepend: site.baseurl | prepend: site.url }}">cv</a>
           <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {{ p.title }}
