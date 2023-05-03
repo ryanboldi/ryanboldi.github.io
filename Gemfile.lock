@@ -47,6 +47,7 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     faraday (1.7.2)
@@ -137,6 +138,8 @@ GEM
       google-protobuf (~> 3.21)
     sass-embedded (1.58.3-x86-mingw32)
       google-protobuf (~> 3.21)
+    sass-embedded (1.58.3-x86_64-linux-gnu)
+      google-protobuf (~> 3.21)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -152,6 +155,7 @@ GEM
 PLATFORMS
   x64-mingw32
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   jekyll!
