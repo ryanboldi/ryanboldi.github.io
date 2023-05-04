@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-description: University of Massachusetts Amherst
+description: Ryan Bahlous-Boldi
+
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>College of Information and Computer Sciences</p>
-    <p>140 Governors Dr.</p>
-    <p>Amherst, MA 01003</p>
+<p> University of Massachusetts Amherst </p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
