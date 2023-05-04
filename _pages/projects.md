@@ -7,7 +7,7 @@ nav: true
 display_categories: [work, fun]
 horizontal: false
 ---
-<div class="Projects">
+<div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
