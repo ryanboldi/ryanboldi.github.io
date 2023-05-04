@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Ryan Bahlous-Boldi >
+description: Ryan Bahlous-Boldi 
 University of Massachusetts Amherst
 
 profile:
