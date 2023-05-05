@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Ryan Boldi
+first_name: 
 middle_name:
-last_name: 
+last_name: Ryan Boldi
 email: rbahlousbold@umass.edu
 description: Also goes by Ryan Bahlous-Boldi # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
@@ -29,7 +29,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
