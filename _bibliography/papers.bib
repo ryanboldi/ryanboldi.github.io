@@ -1,12 +1,12 @@
 ---
 
-@incollection{spector2023particularity,
+@inbook{spector2023particularity,
   abbr={GPTPXX},
   title={Particularity},
   author={Spector, Lee and Ding, Li and Boldi, Ryan},
   booktitle={Genetic Programming Theory and Practice XX},
   year={2023},
-  url={https://arxiv.org/abs/2306.06812},
+  pdf="https://arxiv.org/pdf/2306.06812.pdf",
   publisher={Springer}
 }
 
@@ -30,6 +30,8 @@ year="2022",
 author="Ding, Li and Boldi, Ryan and Helmuth, Thomas and Spector, Lee",
 booktitle="Genetic and Evolutionary Computation Conference Companion (GECCO '22 Companion), July 9--13, 2022, Boston, MA, USA",
 html="https://dl.acm.org/doi/10.1145/3520304.3534026",
+preview='scale.png',
+pdf="https://arxiv.org/pdf/2208.10719.pdf",
 bibtex_show="true",
 abstract="Lexicase selection is a semantic-aware parent selection method, which assesses individual test cases in a randomly-shuffled data stream. It has demonstrated success in multiple research areas including genetic programming, genetic algorithms, and more recently symbolic regression and deep learning. One potential drawback of lexicase selection and its variants is that the selection procedure requires evaluating training cases in a single data stream, making it difficult to handle tasks where the evaluation is computationally heavy or the dataset is large-scale, e.g., deep learning. In this work, we investigate how the weighted shuffle methods can be employed to improve the efficiency of lexicase selection. We propose a novel method, fast lexicase selection, which incorporates lexicase selection and weighted shuffle with partial evaluation. Experiments on both classic genetic programming and deep learning tasks indicate that the proposed method can significantly reduce the number of evaluation steps needed for lexicase selection to select an individual, improving its efficiency while maintaining the performance."
 }
@@ -40,6 +42,8 @@ title="Going Faster and Hence Further with Lexicase Selection",
 year="2022",
 author="Ding, Li and Boldi, Ryan and Helmuth, Thomas and Spector, Lee",
 bibtex_show="true",
+preview="fast.png",
+poster="gecco22poster.pdf",
 booktitle="Genetic and Evolutionary Computation Conference Companion (GECCO '22 Companion), July 9--13, 2022, Boston, MA, USA",
 html="https://dl.acm.org/doi/10.1145/3520304.3529059"
 }
@@ -60,7 +64,8 @@ html="https://dl.acm.org/doi/10.1145/3520304.3529059"
   author = {Boldi, Ryan and Bao, Ashley, and Briesch, Martin and Helmuth, Thomas and Sobania, Dominik, and Spector, Lee and Lalejini, Alexander},
   title = {The Problem Solving Benefits of Down-Sampling Vary by Selection Scheme},
   booktitle="Genetic and Evolutionary Computation Conference Companion (GECCO '23 Companion), July 15--19, 2023, Lisbon, Portugal",
-  year={2023}
+  year={2023},
+  bibtex_show="true",
 }
 
 @inproceedings{boldi2023QDBench,
@@ -70,8 +75,10 @@ Quality Diversity Be Obtained Without Explicit Diversity Maintenance?",
 year="2023",
 author="Boldi, Ryan and Spector, Lee",
 bibtex_show="true",
+preview="encoder.png",
 booktitle="
 Genetic and Evolutionary Computation Conference Companion (GECCO `23)",
+pdf="https://arxiv.org/pdf/2305.07767.pdf",
 abstract="When using Quality Diversity (QD) optimization to solve hard exploration or deceptive search problems, we assume that diversity is extrinsically valuable. This means that diversity is important to help us reach an objective, but is not an objective in itself. Often, in these domains, practitioners benchmark their QD algorithms against single objective optimization frameworks. In this paper, we argue that the correct comparison should be made to \emph{multi-objective} optimization frameworks. This is because single objective optimization frameworks rely on the aggregation of sub-objectives, which could result in decreased information that is crucial for maintaining diverse populations automatically. In order to facilitate a fair comparison between quality diversity and multi-objective optimization, we present a method that utilizes dimensionality reduction to automatically determine a set of behavioral descriptors for an individual, as well as a set of objectives for an individual to solve. Using the former, one can generate solutions using standard quality diversity optimization techniques, and using the latter, one can generate solutions using standard multi-objective optimization techniques. This allows for a level comparison between these two classes of algorithms, without requiring domain and algorithm specific modifications to facilitate a comparison."
 }
 
