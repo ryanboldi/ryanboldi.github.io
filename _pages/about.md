@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: (Also Known As Ryan Bahlous-Boldi)
+description: (Also known as Ryan Bahlous-Boldi)
 
 profile:
   align: right
