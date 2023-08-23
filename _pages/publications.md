@@ -8,18 +8,16 @@ rev-years: [2023]
 nav: true
 ---
 
-<div class="talks">
-<h1 class="invited">Invited Talks</h1>
-{% for y in page.rev-years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f invited_talks -q @*[year={{y}}]* %}
-{% endfor %}
-
-<h1 class="conference">Conference & Workshop Presentations</h1>
+<div class="publications">
 {% for y in page.pub-years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f conference_talks -q @*[year={{y}}]* %}
+  {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
+
+<h1 class="under review">Under Review</h1>
+{% for y in page.rev-years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f review -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
-

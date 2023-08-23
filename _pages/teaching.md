@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /teaching/
-title: service
+permalink: /activities/
+title: activities
 description: 
 nav: true
 ---
@@ -16,11 +16,7 @@ I am currently teaching programming at a Silicon Valley based computer science a
 * CS102P - Basic Algorithms and Data Structure II in Python
 * US Computing Olympiad (USACO) Bronze Booster for Fall 201P (Python)
 
-<pre>
 
-
-
-</pre>
 
 # Activities
 
