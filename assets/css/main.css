@@ -9,13 +9,13 @@
   --global-bg-color: #ffffff;
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
-  --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
-  --global-footer-bg-color: #424242;
-  --global-footer-text-color: #b5b5b5;
+  --global-text-color-light: #666565;
+  --global-theme-color: #881c1c;
+  --global-hover-color: #881c1c;
+  --global-footer-bg-color: #262626;
+  --global-footer-text-color: #999898;
   --global-footer-link-color: #ffffff;
-  --global-distill-app-color: #828282;
+  --global-distill-app-color: #666565;
 }
 :root .fa-sun {
   display: none;
@@ -27,16 +27,16 @@
 }
 
 html[data-theme=dark] {
-  --global-bg-color: #424242;
+  --global-bg-color: #262626;
   --global-code-bg-color: #2c3237;
-  --global-text-color: #b5b5b5;
-  --global-text-color-light: #b5b5b5;
-  --global-theme-color: #2698BA;
-  --global-hover-color: #2698BA;
-  --global-footer-bg-color: #b5b5b5;
-  --global-footer-text-color: #424242;
+  --global-text-color: #999898;
+  --global-text-color-light: #999898;
+  --global-theme-color: #881c1c;
+  --global-hover-color: #881c1c;
+  --global-footer-bg-color: #999898;
+  --global-footer-text-color: #262626;
   --global-footer-link-color: #000000;
-  --global-distill-app-color: #b5b5b5;
+  --global-distill-app-color: #999898;
 }
 html[data-theme=dark] .fa-sun {
   padding-left: 10px;
@@ -156,7 +156,7 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid #b5b5b5;
+  border-bottom: 1px solid #999898;
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -287,14 +287,14 @@ footer.fixed-bottom a:hover {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid #b5b5b5;
+  border-top: 1px solid #999898;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
 }
 
 .header-bar {
-  border-bottom: 1px solid #b5b5b5;
+  border-bottom: 1px solid #999898;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 5rem;
@@ -310,7 +310,7 @@ footer.sticky-bottom {
   padding: 0;
 }
 .post-list li {
-  border-bottom: 1px solid #b5b5b5;
+  border-bottom: 1px solid #999898;
   list-style: none;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -372,8 +372,8 @@ footer.sticky-bottom {
   margin-bottom: 10px;
 }
 .projects h2.category {
-  color: #b5b5b5;
-  border-bottom: 1px solid #b5b5b5;
+  color: #999898;
+  border-bottom: 1px solid #999898;
   padding-top: 0.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -397,8 +397,8 @@ footer.sticky-bottom {
   font-size: 1.5rem;
 }
 .publications h2.year {
-  color: #b5b5b5;
-  border-top: 1px solid #b5b5b5;
+  color: #999898;
+  border-top: 1px solid #999898;
   padding-top: 1rem;
   margin-top: 2rem;
   margin-bottom: -2rem;
@@ -528,7 +528,7 @@ html.transition *:after {
  * Style overrides for distill blog posts.
  ******************************************************************************/
 d-byline {
-  border-top-color: #b5b5b5 !important;
+  border-top-color: #999898 !important;
 }
 
 d-byline h3 {
@@ -549,14 +549,14 @@ d-article a, d-article p, d-article h1, d-article h2, d-article h3, d-article h4
   color: var(--global-text-color) !important;
 }
 d-article a, d-article h1, d-article h2, d-article hr {
-  border-bottom-color: #b5b5b5 !important;
+  border-bottom-color: #999898 !important;
 }
 d-article a:hover {
   border-bottom-color: var(--global-hover-color) !important;
 }
 
 d-appendix {
-  border-top-color: #b5b5b5 !important;
+  border-top-color: #999898 !important;
   color: var(--global-distill-app-color) !important;
 }
 d-appendix h3, d-appendix li, d-appendix span {
