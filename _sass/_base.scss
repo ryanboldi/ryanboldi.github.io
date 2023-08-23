@@ -192,12 +192,11 @@ blockquote {
 
 .news table td {
   font-size: 1rem;
-  width: 40%;
+  width: fit-content;
   color: var(--global-text-color);
 }
 
 .news table th {
-  width: 40%;
   color: var(--global-text-color);
 }
 
