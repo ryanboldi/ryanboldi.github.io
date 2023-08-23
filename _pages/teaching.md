@@ -2,11 +2,11 @@
 layout: page
 permalink: /activities/
 title: activities
-description: 
+description: What I do outside of research
 nav: true
 ---
 
-# Teaching
+## Teaching
 
 I am currently teaching programming at a Silicon Valley based computer science academy named [X-Camp Academy](https://x-camp.academy/#/)
 
@@ -18,6 +18,6 @@ I am currently teaching programming at a Silicon Valley based computer science a
 
 
 
-# Activities
+## Service
 
 I am the president of the [Machine Learning Club](https://umass-ml-club.github.io/) at the University of Massachusetts Amherst.
