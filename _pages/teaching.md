@@ -24,4 +24,4 @@ I am currently teaching programming at a Silicon Valley based computer science a
 
 # Activities
 
-I am the president of [Machine Learning Club](https://umass-ml-club.github.io/) at the University of Massachusetts Amherst.
+I am the president of the [Machine Learning Club](https://umass-ml-club.github.io/) at the University of Massachusetts Amherst.
