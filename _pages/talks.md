@@ -11,7 +11,7 @@ nav: true
 <div class="talks">
 {% for y in page.rev-years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f invited_talks -q @*[year={{y}}]* %}
+  {% bibliography -f talks -q @*[year={{y}}]* %}
 {% endfor %}
 
 
