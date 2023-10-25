@@ -13,6 +13,13 @@ nav: true
 
 :briefcase: = Conference/Workshop
 
+#### Encouraging Diversity in Reinforcement Learning with Lexicase Selection
+**Ryan Boldi**, Charles Zhang and Lee Spector
+*RL at Harvard Workshop 2023*\
+Cambridge, MA, 2023 :us:
+
+&nbsp
+
 #### Think Before You Act: Generating High-Quality Diverse Reasoning Policies :pushpin:
 **Ryan Boldi**, Matthew Fontaine and Stefanos Nikolaidis   
 *SoCal Undergraduate Research Symposium*\
