@@ -1,4 +1,12 @@
 ---
+@article{boldi2023objectives,
+abbr={NeurIPS},
+title={Objectives Are All You Need: Solving Deceptive Problems Without Explicit Diversity Maintenance},
+author={Boldi, Ryan and Ding, Li and Spector, Lee},
+booktitle={Workshop on Agent Learning in Open-Endedness (ALOE) at NeurIPS 2023},
+year={2023}
+preview="Objectives.png"}
+
 
 @article{spector2023particularity,
   abbr={GPTPXX},
@@ -6,6 +14,7 @@
   author={Spector, Lee and Ding, Li and Boldi, Ryan},
   booktitle={Genetic Programming Theory and Practice XX},
   year={2023},
+  preview="particularity.png",
   pdf="https://arxiv.org/pdf/2306.06812.pdf",
   publisher={Springer}
 }
@@ -18,6 +27,7 @@ author="Boldi, Ryan and Helmuth, Thomas and Spector, Lee",
 archivePrefix = "arXiv",
 eprint = {2205.15931},
 bibtex_show="true",
+preview="environment.png"
 booktitle="2022 Conference on Artificial Life - Why it Didn't Work-Shop",
 pdf="https://arxiv.org/pdf/2205.15931v1.pdf",   
 abstract="Down-sampling training data has long been shown to improve the generalization performance of a wide range of machine learning systems. Recently, down-sampling has proved effective in genetic programming (GP) runs that utilize the lexicase parent selection technique. Although this down-sampling procedure has been shown to significantly improve performance across a variety of problems, it does not seem to do so due to encouraging adaptability through environmental change. We hypothesize that the random sampling that is performed every generation causes discontinuities that result in the population being unable to adapt to the shifting environment. We investigate modifications to down-sampled lexicase selection in hopes of promoting incremental environmental change to scaffold evolution by reducing the amount of jarring discontinuities between the environments of successive generations. In our empirical studies, we find that forcing incremental environmental change is not significantly better for evolving solutions to program synthesis problems than simple random down-sampling. In response to this, we attempt to exacerbate the hypothesized prevalence of discontinuities by using only disjoint down-samples to see if it hinders performance. We find that this also does not significantly differ from the performance of regular random down-sampling. These negative results raise new questions about the ways in which the composition of sub-samples, which may include synonymous cases, may be expected to influence the performance of machine learning systems that use down-sampling."
@@ -53,6 +63,7 @@ html="https://dl.acm.org/doi/10.1145/3520304.3529059"
   author = {Boldi, Ryan and Lalejini, Alexander and Helmuth, Thomas and Spector, Lee},
   title = {A Static Analysis of Informed Down-Samples},
   bibtex_show="true",
+  preview="static1.png",
   booktitle="Genetic and Evolutionary Computation Conference Companion (GECCO '23 Companion), July 15--19, 2023, Lisbon, Portugal",
   pdf="https://arxiv.org/pdf/2304.01978.pdf",
   abstract="We present an analysis of the loss of population-level test coverage induced by different down-sampling strategies when combined with lexicase selection. We study recorded populations from the first generation of genetic programming runs, as well as entirely synthetic populations. Our findings verify the hypothesis that informed down-sampling better maintains population-level test coverage when compared to random down-sampling. Additionally, we show that both forms of down-sampling cause greater test coverage loss than standard lexicase selection with no down-sampling. However, given more information about the population, we found that informed down-sampling can further reduce its test coverage loss. We also recommend wider adoption of the static population analyses we present in this work.",
@@ -65,6 +76,7 @@ html="https://dl.acm.org/doi/10.1145/3520304.3529059"
   title = {The Problem Solving Benefits of Down-Sampling Vary by Selection Scheme},
   booktitle="Genetic and Evolutionary Computation Conference Companion (GECCO '23 Companion), July 15--19, 2023, Lisbon, Portugal",
   year={2023},
+  preview="interaction.png",
   bibtex_show="true",
 }
 
