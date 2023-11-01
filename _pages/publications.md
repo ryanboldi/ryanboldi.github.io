@@ -14,7 +14,7 @@ nav: true
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-<h1 class="under review">Under Review</h1>
+<h3 class="under review">Under Review</h3>
 {% for y in page.rev-years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f review -q @*[year={{y}}]* %}
