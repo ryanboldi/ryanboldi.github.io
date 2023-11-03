@@ -9,12 +9,12 @@ nav: true
 ---
 :envelope: = Invited
 
- :pushpin: = Poster
+:pushpin: = Poster
 
 :briefcase: = Conference/Workshop
 
-#### Encouraging Diversity in Reinforcement Learning with Lexicase Selection
-**Ryan Boldi**, Charles Zhang and Lee Spector
+#### Encouraging Diversity in Reinforcement Learning with Lexicase Selection :pushpin:
+**Ryan Boldi**, Charles Zhang and Lee Spector   
 *RL at Harvard Workshop 2023*\
 Cambridge, MA, 2023 :us:
 
