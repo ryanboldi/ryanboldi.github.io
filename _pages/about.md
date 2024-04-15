@@ -6,7 +6,7 @@ description: (Also known as Ryan Bahlous-Boldi)
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_1.jpg
   address: >
 
 news: true  # includes a list of news items
