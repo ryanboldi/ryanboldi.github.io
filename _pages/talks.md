@@ -14,6 +14,7 @@ nav: true
 -- In addition to those listed below, the conference/workshop/poster presentations listed in the [publications](/publications) page also include talks. --
 
 *Encouraging Diversity in Reinforcement Learning with Lexicase Selection* :pushpin:
+
 **Ryan Boldi**, Charles Zhang and Lee Spector   
 *RL at Harvard Workshop 2023*\
 Cambridge, MA, 2023 :us:
@@ -21,41 +22,38 @@ Cambridge, MA, 2023 :us:
 &nbsp;
 
 *Think Before You Act: Generating High-Quality Diverse Reasoning Policies* :pushpin:
+
 **Ryan Boldi**, Matthew Fontaine and Stefanos Nikolaidis   
 *SoCal Undergraduate Research Symposium*\
 Los Angeles, CA, 2023 :us:
 
-&nbsp;
-
 *The Emergence of Diversity*  :briefcase:
+
 **Ryan Boldi** and Lee Spector  
 *Emerging Researchers in Artificial Life Lightning Talk, Conference on Artificial Life*\
 Sapporo, Japan, 2023 :jp:
 
-&nbsp;
+*Evolutionary Computation* :envelope:
 
-*Evolutionary Computation *:envelope:
 **Ryan Boldi**  
 *UMass Amherst Guest Lecture*\
 Amherst, MA, 2023 :us:
 
-&nbsp;
-
 *Lexicase Selection and Reinforcement Learning* :envelope:
+
 **Ryan Boldi**  
 - *Personal Autonomous Robotics Lab (PeARL), UT Austin*\
 Austin, Texas, 2022    
 - *Autonomous Learning Laboratory, UMass Amherst*\
 Amherst, MA, 2022 :us:
 
-&nbsp;
 
 *Lexicase Selection and the Diversity of Quality* :envelope:
+
 **Ryan Boldi**  
 *Adaptive and Intelligent Robotics Lab, Imperial College London*\
 London, UK, 2022 :uk:
 
-&nbsp;
 
 *Evolutionary Algorithms* :envelope:
 **Ryan Boldi**  
