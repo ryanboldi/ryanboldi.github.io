@@ -19,7 +19,6 @@ nav: true
 *RL at Harvard Workshop 2023*\
 Cambridge, MA, 2023 :us:
 
-&nbsp;
 
 *Think Before You Act: Generating High-Quality Diverse Reasoning Policies* :pushpin:
 
