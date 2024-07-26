@@ -8,4 +8,8 @@
 
 "Helmuth":
   - firstname: ["Thomas", "T."]
-    url: http://cs.hamilton.edu/~thelmuth/publications.html
+    url: http://cs.hamilton.edu/~thelmuth/publications.html  
+  
+"Niekum":
+  - firstname: ["Scott", "S."]
+    url: https://people.cs.umass.edu/~sniekum/
