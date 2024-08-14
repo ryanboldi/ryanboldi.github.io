@@ -15,11 +15,11 @@ nav: true
 
 *Encouraging Diversity in Reinforcement Learning with Lexicase Selection* :pushpin:     
 *RL at Harvard Workshop* Cambridge, MA, 2023 :us:    
-<a href="href={{ '/assets/pdf/posters/RL_Harvard.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Poster</a>
+<a href="{{ '/assets/pdf/posters/RL_Harvard.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Poster</a>
 
 *Think Before You Act: Generating High-Quality Diverse Reasoning Policies* :pushpin:    
 *SoCal Undergraduate Research Symposium*\ Los Angeles, CA, 2023 :us:    
-<a href="href={{ '/assets/pdf/posters/RL_Harvard.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Poster</a>
+<a href="{{ '/assets/pdf/posters/RL_Harvard.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Poster</a>
 
 *The Emergence of Diversity*  :briefcase:    
 *Emerging Researchers in Artificial Life Lightning Talk, Conference on Artificial Life*\ Sapporo, Japan, 2023 :jp:
