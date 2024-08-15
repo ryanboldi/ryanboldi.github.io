@@ -493,6 +493,119 @@ footer.sticky-bottom {
   border-color: var(--global-text-color);
 }
 
+.talks {
+  margin-top: 2rem;
+}
+.talks h1 {
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.talks h2 {
+  margin-bottom: 1rem;
+}
+.talks h2 span {
+  font-size: 1.5rem;
+}
+.talks h2.year {
+  color: #dddddd;
+  border-top: 1px solid #dddddd;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  text-align: right;
+}
+.talks ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+.talks ol.bibliography li {
+  margin-bottom: 1rem;
+}
+.talks ol.bibliography li .abbr {
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+.talks ol.bibliography li .abbr abbr {
+  display: inline-block;
+  background-color: var(--global-theme-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.talks ol.bibliography li .abbr abbr a {
+  color: white;
+}
+.talks ol.bibliography li .abbr abbr a:hover {
+  text-decoration: none;
+}
+.talks ol.bibliography li .abbr .award {
+  color: var(--global-theme-color) !important;
+  border: 1px solid var(--global-theme-color);
+}
+.talks ol.bibliography li .title {
+  font-weight: bolder;
+}
+.talks ol.bibliography li .author a {
+  border-bottom: 1px dashed var(--global-theme-color);
+}
+.talks ol.bibliography li .author a:hover {
+  border-bottom-style: solid;
+  text-decoration: none;
+}
+.talks ol.bibliography li .author > em {
+  border-bottom: 1px solid;
+  font-style: normal;
+}
+.talks ol.bibliography li .links a.btn {
+  color: var(--global-text-color);
+  border: 1px solid var(--global-text-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.talks ol.bibliography li .links a.btn:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+.talks ol.bibliography li .hidden {
+  font-size: 0.875rem;
+  max-height: 0px;
+  overflow: hidden;
+  text-align: justify;
+  -webkit-transition: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: all 0.15s ease;
+}
+.talks ol.bibliography li .hidden p {
+  line-height: 1.4em;
+  margin: 10px;
+}
+.talks ol.bibliography li .hidden pre {
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 10px;
+}
+.talks ol.bibliography li .hidden.open {
+  max-height: 100em;
+  -webkit-transition: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: all 0.15s ease;
+}
+.talks ol.bibliography li div.abstract.hidden {
+  border: dashed 1px var(--global-bg-color);
+}
+.talks ol.bibliography li div.abstract.hidden.open {
+  border-color: var(--global-text-color);
+}
+
 figure.highlight {
   margin: 0 0 1rem;
 }
