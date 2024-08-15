@@ -15,9 +15,11 @@ nav: true
 
 *Encouraging Diversity in Reinforcement Learning with Lexicase Selection*      
 :pushpin: *RL at Harvard Workshop*   
-Cambridge, MA, 2023 :us:    
+Cambridge, MA, 2023 :us:  
+<div class="row">  
 <div class="links"> 
 <a href="{{ '/assets/pdf/posters/RL_Harvard.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Poster</a>
+</div>
 </div>
 
 *Think Before You Act: Generating High-Quality Diverse Reasoning Policies*     
