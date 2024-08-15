@@ -22,6 +22,9 @@ Cambridge, MA, 2023 :us:
     </div>
 </div>
 
+<br>
+
+
 *Think Before You Act: Generating High-Quality Diverse Reasoning Policies*     
 :pushpin: *SoCal Undergraduate Research Symposium*   
 Los Angeles, CA, 2023 :us:
@@ -30,6 +33,8 @@ Los Angeles, CA, 2023 :us:
         <a href="{{ '/assets/pdf/posters/USC_IPG.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Poster</a>
     </div>
 </div>
+
+<br>
 
 *The Emergence of Diversity*      
 :briefcase: *Emerging Researchers in Artificial Life Lightning Talk, Conference on Artificial Life*   
@@ -40,6 +45,8 @@ Sapporo, Japan, 2023 :jp:
     </div>
 </div>
 
+<br>
+
 *Evolutionary Computation*     
 :envelope: *UMass Amherst Guest Lecture*   
 Amherst, MA, 2023 :us:
@@ -48,6 +55,8 @@ Amherst, MA, 2023 :us:
         <a href="https://docs.google.com/presentation/d/1sQj5805bnW7PxMRagN9UETwPmSGeTaiK/" class="nav-link btn btn-sm z-depth-0" role="button">Slides</a>
     </div>
 </div>
+
+<br>
 
 *Lexicase Selection and Reinforcement Learning*      
 - :envelope: *Personal Autonomous Robotics Lab (PeARL), UT Austin*\
@@ -60,6 +69,8 @@ Amherst, MA, 2022 :us:
     </div>
 </div>
 
+<br>
+
 *Lexicase Selection and the Diversity of Quality*   
 :envelope: *Adaptive and Intelligent Robotics Lab, Imperial College London*   
 London, UK, 2022 :uk:
@@ -68,6 +79,8 @@ London, UK, 2022 :uk:
         <a href="{{ '/assets/pdf/slides/Lexicase_Selection_QD.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Slides</a>
     </div>
 </div>
+
+<br>
 
 
 *Evolutionary Algorithms*   
