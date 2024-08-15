@@ -17,28 +17,28 @@ nav: true
 :pushpin: *RL at Harvard Workshop*   
 Cambridge, MA, 2023 :us:    
 <div class="links"> 
-<a href="{{ '/assets/pdf/posters/RL_Harvard.pdf' | prepend: site.baseurl | prepend: site.url }}" class="links nav-link btn btn-sm z-depth-0" role="button">Poster</a>
+<a href="{{ '/assets/pdf/posters/RL_Harvard.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Poster</a>
 </div>
 
 *Think Before You Act: Generating High-Quality Diverse Reasoning Policies*     
 :pushpin: *SoCal Undergraduate Research Symposium*   
 Los Angeles, CA, 2023 :us:     
 <div class="links"> 
-<a href="{{ '/assets/pdf/posters/USC_IPG.pdf' | prepend: site.baseurl | prepend: site.url }}" class="links nav-link btn btn-sm z-depth-0" role="button">Poster</a>
+<a href="{{ '/assets/pdf/posters/USC_IPG.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Poster</a>
 </div>
 
 *The Emergence of Diversity*      
 :briefcase: *Emerging Researchers in Artificial Life Lightning Talk, Conference on Artificial Life*   
 Sapporo, Japan, 2023 :jp:    
 <div class="links"> 
-<a href="{{ '/assets/pdf/posters/EmergenceOfDiversity.pdf' | prepend: site.baseurl | prepend: site.url }}" class="links nav-link btn btn-sm z-depth-0" role="button">Slides</a>
+<a href="{{ '/assets/pdf/posters/EmergenceOfDiversity.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Slides</a>
 </div>
 
 *Evolutionary Computation*     
 :envelope: *UMass Amherst Guest Lecture*   
 Amherst, MA, 2023 :us:    
 <div class="links"> 
-<a href="https://docs.google.com/presentation/d/1sQj5805bnW7PxMRagN9UETwPmSGeTaiK/" class="links nav-link btn btn-sm z-depth-0" role="button">Slides</a>
+<a href="https://docs.google.com/presentation/d/1sQj5805bnW7PxMRagN9UETwPmSGeTaiK/" class="nav-link btn btn-sm z-depth-0" role="button">Slides</a>
 </div>
 
 *Lexicase Selection and Reinforcement Learning*      
@@ -47,14 +47,14 @@ Austin, Texas, 2022
 - :envelope: *Autonomous Learning Laboratory, UMass Amherst*\
 Amherst, MA, 2022 :us:    
 <div class="links"> 
-<a href="{{ '/assets/pdf/slides/LexicaseRL.pdf' | prepend: site.baseurl | prepend: site.url }}" class=" nav-link btn btn-sm z-depth-0" role="button">Slides</a>
+<a href="{{ '/assets/pdf/slides/LexicaseRL.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Slides</a>
 </div>
 
 *Lexicase Selection and the Diversity of Quality*   
 :envelope: *Adaptive and Intelligent Robotics Lab, Imperial College London*   
 London, UK, 2022 :uk:    
 <div class="links">
-<a href="{{ '/assets/pdf/slides/Lexicase_Selection_QD.pdf' | prepend: site.baseurl | prepend: site.url }}" class="links nav-link btn btn-sm z-depth-0" role="button">Slides</a>
+<a href="{{ '/assets/pdf/slides/Lexicase_Selection_QD.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Slides</a>
 </div>
 
 
