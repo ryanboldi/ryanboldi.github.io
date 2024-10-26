@@ -17,6 +17,14 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I am currently an undergraduate at the Univeristy of Massachusetts Amherst. Recently, I have been working with [Lee Spector](https://www.amherst.edu/people/facstaff/lspector) on Lexicase selection, a novel selection strategy for evolutionary computation. Additionally, I have been working with [Scott Niekum](https://people.cs.umass.edu/~sniekum/) on improving alignment of reward functions learned from human preferences for Reinforcement Learning from human feedback (RLHF). Furthermore, I am working with [Stefanos Nikolaidis](https://stefanosnikolaidis.net/) on Quality Diversity Optimization for Reinforcement Learning.
+I’m an undergrad at UMass Amherst, researching how intelligence can emerge in adaotive artificial systems that evolve and learn. My focus is on enabling agents to adapt in dynamic, open-ended environments, understanding how intelligence emerges from simple rules, and designing systems that capture the complexity and generality of human intelligence.
 
-My research interests include Neuroevolution, Genetic Programming, Cognitive Science, Reinforcement Learning and Robotics. My goal is to study the emergence of human intelligence from the perspective of evolving and learning autonomous systems. I am planning on applying to PhD programs for the Fall 2025 cycle.
+With guidance from my mentors, I'm diving into key questions that drive my work:
+
+- With [Lee Spector](https://www.amherst.edu/people/facstaff/lspector), I'm exploring selection algorithms for multi-modal and multi-objective optimization in symbolic AI systems using Genetic Programming.
+- Working with [Scott Niekum](https://people.cs.umass.edu/~sniekum/), I'm aligning reward functions in Reinforcement Learning from Human Feedback (RLHF) to help robotic and LLM agents better align to the diversity of human preferences.
+- Alongside [Stefanos Nikolaidis](https://stefanosnikolaidis.net/) at USC, I leveraged Quality Diversity Optimization to improve adaptability in Reinforcement Learning for 3D robotic control tasks.
+- With [Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) at CMU, I investigated collaborative systems where LLM-based agents can work dynamically with human teams.
+
+I am applying to PhD programs for Fall 2025. 
+Through approaches like Genetic Programming, Program Synthesis, Reinforcement Learning, Robotics, and Cognitive Science, I hope to build systems that further our understanding of intelligence in autonomous agents and ultimiately in ourselves. 
