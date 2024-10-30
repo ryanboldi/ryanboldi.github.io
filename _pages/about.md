@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I’m an undergrad at UMass Amherst, researching how intelligence can emerge in adaotive artificial systems that evolve and learn. My focus is on enabling agents to adapt in dynamic, open-ended environments, understanding how intelligence emerges from simple rules, and designing systems that capture the complexity and generality of human intelligence.
+I’m an undergrad at UMass Amherst, researching how intelligence can emerge in adaptive artificial systems that evolve and learn. My focus is on enabling agents to adapt in dynamic, open-ended environments, understanding how intelligence emerges from simple rules, and designing systems that capture the complexity and generality of human intelligence.
 
 With guidance from my mentors, I'm diving into key questions that drive my work:
 

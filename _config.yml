@@ -69,7 +69,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name:   # your blog must have a name for it to show up in the nav bar
+blog_name:  Do You Mind? # your blog must have a name for it to show up in the nav bar
 blog_description: Where I'll give a (somewhat uncoordinated) view into my mind
 permalink: /blog/:year/:title/
 
