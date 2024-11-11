@@ -20,6 +20,7 @@ nav: true
 People with whom I've collaborated, exchanged ideas, or had deeply insightful conversations:
 
 - Aadam Lokhandwala
+- Andrew Dai
 - Akarsh Kumar
 - Alex Lalejini
 - Andrew Barto
