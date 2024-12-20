@@ -1,12 +1,10 @@
 ---
 layout: page
 permalink: /thanks/
-title: thanks
-description: People who helped me get here
+title: Thanks
+description: I wouldn't be where I am without some help...
 nav: true
 ---
-
-## I would not be where I am without some help...
 
 ### Mentors
 
