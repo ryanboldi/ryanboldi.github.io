@@ -41,7 +41,7 @@ Los Angeles, CA, 2023 :us:
 Sapporo, Japan, 2023 :jp:
 <div class="row">  
     <div class="links"> 
-        <a href="{{ '/assets/pdf/posters/EmergenceOfDiversity.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Slides</a>
+        <a href="{{ '/assets/pdf/slides/EmergenceOfDiversity.pdf' | prepend: site.baseurl | prepend: site.url }}" class="nav-link btn btn-sm z-depth-0" role="button">Slides</a>
     </div>
 </div>
 
