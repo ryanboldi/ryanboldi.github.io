@@ -53,7 +53,7 @@ And many more...
 
 ### Media
 
-Media that i have regularly consumed, and that have shaped my views:
+Media that I regularly consume, and that have shaped my views:
 
 - Machine Learning Street Talk
 - Waking Up with Sam Harris
