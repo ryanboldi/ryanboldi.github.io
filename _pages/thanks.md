@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /thanks/
-title: Thanks
+title: thanks
 description: I wouldn't be where I am without some help...
 nav: true
 ---
