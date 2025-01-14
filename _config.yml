@@ -69,8 +69,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # your blog must have a name for it to show up in the nav bar
-blog_description: Where I'll give a (somewhat uncoordinated) view into my mind
+blog_name: Do you Mind? # your blog must have a name for it to show up in the nav bar
+blog_description: Some thoughts on Minds and Machines
 permalink: /blog/:year/:title/
 
 # Pagination
