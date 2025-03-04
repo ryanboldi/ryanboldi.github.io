@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Using LaTeX in Blog Posts - Ryan Bahlous-Boldi</title>
+
+    <meta name="author" content="Ryan Bahlous-Boldi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+    
+    <!-- MathJax for LaTeX support -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <!-- Navigation -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p style="text-align:left;font-size:small;">
+                  <a href="../">← Back to Home</a> &nbsp;|&nbsp; <a href="../blog/">All Posts</a>
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          
+          <!-- Blog Post Header -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:100%;vertical-align:middle">
+                <h2 style="text-align:center;">Using LaTeX in Blog Posts</h2>
+                <p style="text-align:center;font-size:small;">
+                  March 1, 2023 &nbsp;|&nbsp; Ryan Bahlous-Boldi
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          
+          <!-- Blog Post Content -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:100%;vertical-align:middle">
+                <p>
+                  This post demonstrates how to use LaTeX math formatting in your blog posts. LaTeX is powerful for displaying mathematical notation on the web.
+                </p>
+                
+                <h3>Inline Math Expressions</h3>
+                
+                <p>
+                  You can include inline math expressions by surrounding your LaTeX code with single dollar signs. For example, the equation for calculating the area of a circle $A = \pi r^2$ appears right within the text.
+                </p>
+                
+                <p>
+                  Here's another example: The quadratic formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ solves the equation $ax^2 + bx + c = 0$.
+                </p>
+                
+                <h3>Display Math Expressions</h3>
+                
+                <p>
+                  For larger equations or formulas that should be displayed on their own line, use double dollar signs:
+                </p>
+                
+                <p>
+                  $$\int_{a}^{b} f(x) \, dx = F(b) - F(a)$$
+                </p>
+                
+                <p>
+                  This is the Fundamental Theorem of Calculus. You can also add equation numbers or labels:
+                </p>
+                
+                <p>
+                  $$\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t} \tag{1}$$
+                </p>
+                
+                <p>
+                  $$\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t} \tag{2}$$
+                </p>
+                
+                <h3>Advanced Mathematical Notation</h3>
+                
+                <p>
+                  LaTeX can handle complex mathematical structures like matrices:
+                </p>
+                
+                <p>
+                  $$
+                  A = \begin{pmatrix}
+                  a_{11} & a_{12} & \ldots & a_{1n} \\
+                  a_{21} & a_{22} & \ldots & a_{2n} \\
+                  \vdots & \vdots & \ddots & \vdots \\
+                  a_{m1} & a_{m2} & \ldots & a_{mn}
+                  \end{pmatrix}
+                  $$
+                </p>
+                
+                <p>
+                  And aligned equations:
+                </p>
+                
+                <p>
+                  $$
+                  \begin{align}
+                  \nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
+                  \nabla \cdot \vec{B} &= 0
+                  \end{align}
+                  $$
+                </p>
+                
+                <h3>Using LaTeX in Your Own Posts</h3>
+                
+                <p>
+                  To use LaTeX in your own blog posts, you need to:
+                </p>
+                
+                <ol>
+                  <li>Include the MathJax scripts in the <code>&lt;head&gt;</code> section of your HTML file (already done in this template)</li>
+                  <li>Use single dollar signs for inline math: <code>$your formula here$</code></li>
+                  <li>Use double dollar signs for display math: <code>$$your formula here$$</code></li>
+                </ol>
+                
+                <p>
+                  You can also use standard LaTeX syntax for symbols, like Greek letters ($\alpha$, $\beta$, $\gamma$), operators ($\sum$, $\prod$, $\int$), and more.
+                </p>
+                
+                <h3>Examples for Machine Learning</h3>
+                
+                <p>
+                  Here are some examples relevant to machine learning and AI:
+                </p>
+                
+                <p>
+                  <strong>Cost function for linear regression:</strong>
+                  $$J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_\theta(x^{(i)}) - y^{(i)})^2$$
+                </p>
+                
+                <p>
+                  <strong>Sigmoid activation function:</strong>
+                  $$\sigma(z) = \frac{1}{1 + e^{-z}}$$
+                </p>
+                
+                <p>
+                  <strong>Backpropagation update rule:</strong>
+                  $$\theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta)$$
+                </p>
+                
+                <h3>Conclusion</h3>
+                
+                <p>
+                  With LaTeX math formatting, you can clearly communicate complex mathematical ideas in your blog posts. This is especially useful for academic and technical writing.
+                </p>
+                
+                <p>
+                  For a complete reference on LaTeX math commands, check out the <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank">LaTeX Mathematics Wikibook</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          
+          <!-- Footer -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <p style="text-align:center;font-size:small;">
+                  &copy; 2023 Ryan Bahlous-Boldi
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+  </body>
+</html> 
