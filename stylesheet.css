@@ -80,32 +80,59 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'CMS', Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+body {
+  color: #111;
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'CMS', Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
 }
 
 h2 {
   margin: 0;
   font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'CMS', Georgia, 'Times New Roman', Times, serif;
   font-size: 22px;
 }
 
 .papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'CMS', Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+/* Paper meta that follows titles */
+span.papertitle ~ strong {
+  font-family: 'CMS', Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
-  font-weight: 700;
+  color: inherit;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+span.papertitle ~ em {
+  font-size: 13px;
+  color: inherit;
+}
+
+span.papertitle ~ a {
+  font-size: 13px;
 }
 
 .name {
   padding-top: 20px;
   margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'CMS', Georgia, 'Times New Roman', Times, serif;
   font-size: 32px;
 }
 
@@ -139,4 +166,15 @@ span.highlight {
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
+}
+
+/* Headings in Computer Modern (serif) */
+h1, h3 {
+  font-family: 'CMS', Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Larger intro paragraphs on home */
+.lead {
+  font-size: 15.3px;
+  line-height: 1.5;
 }
