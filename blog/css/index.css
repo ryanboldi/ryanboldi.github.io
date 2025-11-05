@@ -27,6 +27,10 @@ a:link{color:black}
 a:visited{color:black}
 a:hover{color:black}
 a:active{color:black}
+.section-links-ul a,
+.section-links-ul a:link,
+.section-links-ul a:visited{text-decoration:none !important}
+.section-links-ul a:hover{text-decoration:underline !important}
 .post{width:250px;min-height:340px;margin-bottom:20px;margin-left:0px;margin-right:15px;float:left;border:2px solid black;background-color:white;border-radius:5px}
 .post h3{margin:5px;font-size:100%;text-align:center}
 .post h4{margin:0px;font-size:85%;text-align:center}
