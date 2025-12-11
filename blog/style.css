@@ -1,11 +1,34 @@
 @import url("/fonts/Serif/cmun-serif.css");
 
+html, body {
+  background-color: #ffffff;
+}
+
 body {
   font-family: 'CMS', 'Computer Modern Serif', serif;
-  background: #222;
-  color: #ddd;
+  background: transparent;
+  color: #111;
   line-height: 1.6;
   margin: 0;
+  overflow-x: hidden;
+}
+
+#life-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.85;
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 32px rgba(0, 0, 0, 0.15));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #life-canvas {
+    display: none;
+  }
 }
 
 a {

@@ -1,4 +1,7 @@
-html, body{height:100%}
+html, body{
+height:100%;
+background-color:#ffffff;
+}
 
 
 @media (max-width: 600px) {
@@ -11,7 +14,26 @@ html, body{height:100%}
 
 
 
-body{background:url('../images/background.jpg') no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
+body{
+margin:0;
+background-color:transparent;
+overflow-x:hidden;
+color:#111;
+}
+#life-canvas{
+position:fixed;
+inset:0;
+width:100vw;
+height:100vh;
+z-index:-1;
+pointer-events:none;
+opacity:0.85;
+background-color:#ffffff;
+filter:drop-shadow(0 0 32px rgba(0,0,0,0.15));
+}
+@media (prefers-reduced-motion: reduce){
+#life-canvas{display:none}
+}
 #wrap{padding-top:72px;padding-bottom:30px !important}
 .blog-topbar{position:fixed;top:0;left:0;right:0;z-index:9999;background:rgba(245,245,245,0.98);backdrop-filter:saturate(140%) blur(6px);border-bottom:1px solid rgba(0,0,0,0.08)}
 .blog-topbar .inner{max-width:960px;margin:0 auto;padding:12px 18px;display:flex;align-items:center;justify-content:space-between}
