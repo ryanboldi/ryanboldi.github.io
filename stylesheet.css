@@ -178,3 +178,35 @@ h1, h3 {
   font-size: 15.3px;
   line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+  table,
+  tbody,
+  tr,
+  td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  td {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .name {
+    font-size: 26px !important;
+  }
+
+  .papertitle {
+    font-size: 19px !important;
+  }
+
+  img[style*="border-radius"] {
+    width: 200px !important;
+    height: 200px !important;
+    display: block !important;
+    margin: 0 auto 14px !important;
+  }
+}
