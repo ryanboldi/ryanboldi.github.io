@@ -3,16 +3,14 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Ryan Bahlous-Boldi - Publications</title>
+    <title>Ryan Bahlous-Boldi</title>
 
     <meta name="author" content="Ryan Bahlous-Boldi">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" href="blog/fonts/Serif/cmun-serif.css">
-    <link rel="stylesheet" href="blog/fonts/Serif-Slanted/cmun-serif-slanted.css">
-    <link rel="stylesheet" href="blog/fonts/Sans/cmun-sans.css">
-    
   </head>
 
   <body>
@@ -51,10 +49,27 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <!-- Dynamic Compression Paper - 2026 -->
+            <tr>
+              <td style="padding:16px;width:30%;vertical-align:middle">
+                <img src="images/dynamic_compression.jpg" width="220" height="192" alt="Dynamic Compression in Recurrent Networks" loading="lazy" decoding="async">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Dynamic Compression in Recurrent Networks</span>
+                <br>
+                <a href="https://jyopari.github.io/" style="color:inherit;font-size:inherit;">Jyothish Pari</a>, <strong>Ryan Bahlous-Boldi</strong>, <a href="https://people.csail.mit.edu/pulkitag/" style="color:inherit;font-size:inherit;">Pulkit Agrawal</a>
+                <br>
+                <em>arXiv preprint</em>, 2026
+                <br>
+                <a href="https://arxiv.org/abs/2608.17896">PDF</a>
+                <p>TL;DR: Recurrent models normally compress history into a fixed-size state in one causal pass, so each input must be compressed before the model knows how it will be used. We let the model selectively revisit past tokens and revise its state through extra recurrent updates, which substantially reduces the state size needed for accurate reuse and scales better as the number of stored functions grows.</p>
+              </td>
+            </tr>
+
             <!-- VPO Paper - 2026 -->
             <tr>
               <td style="padding:16px;width:30%;vertical-align:middle">
-                <img src="images/VPO.png" width="220">
+                <img src="images/VPO.png" width="220" height="252" loading="lazy" decoding="async">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Vector Policy Optimization: Training for Diversity Improves Test-Time Search</span>
@@ -70,6 +85,7 @@
               </td>
             </tr>
 
+
           </tbody></table>
 
           <!-- Publications -->
@@ -82,17 +98,34 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <!-- DRQ Paper (GECCO 2026) -->
+            <tr>
+              <td style="padding:16px;width:30%;vertical-align:middle">
+                <img src="images/DRQ.jpg" width="220" height="110" loading="lazy" decoding="async" alt="Digital Red Queen: Adversarial Program Evolution in Core War with LLMs">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Digital Red Queen: Adversarial Program Evolution in Core War with LLMs</span>
+                <br>
+                <a href="https://akarshkumar.com/" style="color:inherit;font-size:inherit;">Akarsh Kumar</a>, <strong>Ryan Bahlous-Boldi</strong>, Prafull Sharma, <a href="https://web.mit.edu/phillipi/" style="color:inherit;font-size:inherit;">Phillip Isola</a>, <a href="https://sebastianrisi.com/" style="color:inherit;font-size:inherit;">Sebastian Risi</a>, Yujin Tang, <a href="https://otoro.net/" style="color:inherit;font-size:inherit;">David Ha</a>
+                <br>
+                <em>GECCO 2026</em>
+                <br>
+                <a href="https://arxiv.org/abs/2601.03335">PDF</a>
+                <p>TL;DR: We study Digital Red Queen (DRQ), a self-play algorithm in which an LLM repeatedly evolves a new Core War program to defeat every program it produced before. Across rounds the programs get more general against held-out human warriors and less behaviorally diverse across independent runs, converging toward a single general-purpose strategy.</p>
+              </td>
+            </tr>
+
             <!-- DNS Paper (Highlighted) - 2025 -->
             <tr style="background-color: #ffffd0;">
               <td style="padding:16px;width:30%;vertical-align:middle">
-                <img src="images/DNS.png" width="220">
+                <img src="images/DNS.png" width="220" height="175" loading="lazy" decoding="async">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Dominated Novelty Search: Rethinking Local Competition in Quality-Diversity</span>
                 <br>
                 <strong>Ryan Bahlous-Boldi*</strong>, Maxence Faldor*, Luca Grillotti, Hannah Janmohamed, Lisa Coiffard, Lee Spector, Antoine Cully
                 <br>
-                <em>GECCO 2025</em>, 2025
+                <em>GECCO 2025</em>
                 <br>
                 <a href="https://arxiv.org/abs/2502.00593">PDF</a> /
                 <a href="https://doi.org/10.1145/3712256.3726310">DOI</a>
@@ -103,14 +136,14 @@
             <!-- POPL Paper (Highlighted) - 2024 -->
             <tr style="background-color: #ffffd0;">
               <td style="padding:16px;width:30%;vertical-align:middle">
-                <img src="images/POPL.png" width="220">
+                <img src="images/POPL.png" width="220" height="87" loading="lazy" decoding="async">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Pareto Optimal Learning from Preferences with Hidden Context</span>
                 <br>
                 <strong>Ryan Bahlous-Boldi</strong>, Li Ding, Lee Spector, and Scott Niekum
                 <br>
-                <em>Reinforcement Learning Journal, vol. 6 (RLC 2025) & Pluralistic Alignment Workshop @ NeurIPS 2024</em>, 2025
+                <em>Reinforcement Learning Journal, vol. 6 (RLC 2025) & Pluralistic Alignment Workshop @ NeurIPS 2024</em>
                 <br>
                 <a href="https://arxiv.org/abs/2406.15599">PDF</a> /
                 <a href="https://rlj.cs.umass.edu/2025/papers/Paper54.html">RLJ</a>
@@ -121,7 +154,7 @@
             <!-- Deceptive Problems Paper - 2024 -->
             <tr>
               <td style="padding:16px;width:30%;vertical-align:middle">
-                <img src="images/implicit_diversity.png" width="220">
+                <img src="images/implicit_diversity.png" width="220" height="188" loading="lazy" decoding="async">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Solving Deceptive Problems Without Explicit Diversity Maintenance</span>
@@ -139,7 +172,7 @@
             <!-- IDS Paper (Highlighted) - 2024 -->
             <tr style="background-color: #ffffd0;">
               <td style="padding:16px;width:30%;vertical-align:middle">
-                <img src="images/IDS.png" width="220">
+                <img src="images/IDS.png" width="220" height="115" loading="lazy" decoding="async">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Informed Down-Sampled Lexicase Selection: Identifying productive training cases for efficient problem solving</span>
@@ -157,14 +190,14 @@
             <!-- Untangling Paper - 2024 -->
             <tr>
               <td style="padding:16px;width:30%;vertical-align:middle">
-                <img src="images/untangling.png" width="220">
+                <img src="images/untangling.png" width="220" height="128" loading="lazy" decoding="async">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Untangling the Effects of Down-Sampling and Selection in Genetic Programming</span>
                 <br>
                 <strong>Ryan Boldi</strong>, Ashley Bao, Martin Briesch, Thomas Helmuth, Dominik Sobania, Lee Spector, Alexander Lalejini
                 <br>
-                <em>ALIFE 2024: the 2024 Conference on Artificial Life</em>, 2024
+                <em>ALIFE 2024: the 2024 Conference on Artificial Life</em>
                 <br>
                 <a href="https://arxiv.org/abs/2304.07089">PDF</a> /
                 <a href="https://doi.org/10.1162/isal_a_00832">DOI</a>
@@ -175,7 +208,7 @@
             <!-- Particularity Book Chapter - 2024 -->
             <tr>
               <td style="padding:16px;width:30%;vertical-align:middle">
-                <img src="images/particularity.png" width="220">
+                <img src="images/particularity.png" width="220" height="201" loading="lazy" decoding="async">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Particularity</span>
@@ -214,7 +247,7 @@
                 <br>
                 <strong>Ryan Boldi</strong>, Thomas Helmuth, Lee Spector
                 <br>
-                <em>The 2022 Conference on Artificial Life - Why it Didn't Work-Shop (ALIFE '22)</em>, 2022
+                <em>The 2022 Conference on Artificial Life - Why it Didn't Work-Shop (ALIFE '22)</em>
                 <br>
                 <a href="https://arxiv.org/pdf/2205.15931">PDF</a>
                 <p>TL;DR: We propose the environmental discontinuity hypothesis to explain the effectiveness of down-sampled lexicase selection.</p>
@@ -256,7 +289,7 @@
             <!-- Diverse Induced Policies - 2024 -->
             <tr>
               <td style="padding:16px;width:30%;vertical-align:middle">
-                <img src="images/diverse_policies.png" width="220">
+                <img src="images/diverse_policies.png" width="220" height="222" loading="lazy" decoding="async">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Generating Diverse Critics for Conditioned Policy Distillation</span>

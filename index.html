@@ -8,9 +8,8 @@
     <meta name="author" content="Ryan Bahlous-Boldi">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
     <link rel="stylesheet" href="blog/fonts/Serif/cmun-serif.css">
-    <link rel="stylesheet" href="blog/fonts/Serif-Slanted/cmun-serif-slanted.css">
-    <link rel="stylesheet" href="blog/fonts/Sans/cmun-sans.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
   </head>
@@ -48,17 +47,17 @@
                 <p style="text-align:center">Email: ryanbb [at] mit [dot] edu</p>
                 <p style="text-align:center; margin-bottom: 20px;">
                   <!-- University Logos -->
-                  <a href="https://www.mit.edu" target="_blank"><img src="images/logos/mit_small.png" alt="Massachusetts Institute of Technology" height="50"></a>
+                  <a href="https://www.mit.edu" target="_blank"><img src="images/logos/mit_small.png" alt="Massachusetts Institute of Technology" height="50" loading="lazy" decoding="async"></a>
                   &nbsp;&nbsp;&nbsp;&nbsp;
-                  <a href="https://www.csail.mit.edu" target="_blank"><img src="images/logos/CSAIL_Primary_Regular_RGB.png" alt="Computer Science and Artificial Intelligence Laboratory" height="50"></a>
+                  <a href="https://www.csail.mit.edu" target="_blank"><img src="images/logos/CSAIL_Primary_Regular_RGB.png" alt="Computer Science and Artificial Intelligence Laboratory" height="50" loading="lazy" decoding="async"></a>
                   &nbsp;&nbsp;&nbsp;&nbsp;
-                  <a href="https://www.umass.edu" target="_blank"><img src="images/logos/umass_logo_small.png" alt="University of Massachusetts Amherst" height="50"></a>
+                  <a href="https://www.umass.edu" target="_blank"><img src="images/logos/umass_logo_small.png" alt="University of Massachusetts Amherst" height="50" loading="lazy" decoding="async"></a>
                   &nbsp;&nbsp;&nbsp;&nbsp;
-                  <a href="https://www.nsfgrfp.org" target="_blank"><img src="images/logos/NSF_logo.png" alt="National Science Foundation Graduate Research Fellowship Program" height="50"></a>
+                  <a href="https://www.nsfgrfp.org" target="_blank"><img src="images/logos/NSF_logo.png" alt="National Science Foundation Graduate Research Fellowship Program" height="50" loading="lazy" decoding="async"></a>
                   </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/profile_pic.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/profile_pic.jpg" class="hoverZoomLink"></a>
+                <a href="images/profile_pic_full.jpg" title="Full resolution (3857px)"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="Ryan Bahlous-Boldi" src="images/profile_pic.jpg" srcset="images/profile_pic.jpg 1x, images/profile_pic@2x.jpg 2x" width="320" height="320" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -77,10 +76,27 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+    <!-- Dynamic Compression Paper -->
+    <tr>
+      <td style="padding:16px;width:30%;vertical-align:middle">
+        <img src="images/dynamic_compression.jpg" width="220" height="192" alt="Dynamic Compression in Recurrent Networks" loading="lazy" decoding="async">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <span class="papertitle">Dynamic Compression in Recurrent Networks</span>
+        <br>
+        <a href="https://jyopari.github.io/" style="color:inherit;font-size:inherit;">Jyothish Pari</a>, <strong>Ryan Bahlous-Boldi</strong>, <a href="https://people.csail.mit.edu/pulkitag/" style="color:inherit;font-size:inherit;">Pulkit Agrawal</a>
+        <br>
+        <em>arXiv preprint</em>, 2026
+        <br>
+        <a href="https://arxiv.org/abs/2608.17896">PDF</a>
+        <p>TL;DR: Recurrent models normally compress history into a fixed-size state in one causal pass, so each input must be compressed before the model knows how it will be used. We let the model selectively revisit past tokens and revise its state through extra recurrent updates, which substantially reduces the state size needed for accurate reuse and scales better as the number of stored functions grows.</p>
+      </td>
+    </tr>
+
     <!-- VPO Paper -->
     <tr>
       <td style="padding:16px;width:30%;vertical-align:middle">
-        <img src="images/VPO.png" width="220">
+        <img src="images/VPO.png" width="220" height="252" loading="lazy" decoding="async">
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <span class="papertitle">Vector Policy Optimization: Training for Diversity Improves Test-Time Search</span>
@@ -96,17 +112,34 @@
       </td>
     </tr>
 
+    <!-- DRQ Paper -->
+    <tr>
+      <td style="padding:16px;width:30%;vertical-align:middle">
+        <img src="images/DRQ.jpg" width="220" height="110" loading="lazy" decoding="async" alt="Digital Red Queen: Adversarial Program Evolution in Core War with LLMs">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <span class="papertitle">Digital Red Queen: Adversarial Program Evolution in Core War with LLMs</span>
+        <br>
+        <a href="https://akarshkumar.com/" style="color:inherit;font-size:inherit;">Akarsh Kumar</a>, <strong>Ryan Bahlous-Boldi</strong>, Prafull Sharma, <a href="https://web.mit.edu/phillipi/" style="color:inherit;font-size:inherit;">Phillip Isola</a>, <a href="https://sebastianrisi.com/" style="color:inherit;font-size:inherit;">Sebastian Risi</a>, Yujin Tang, <a href="https://otoro.net/" style="color:inherit;font-size:inherit;">David Ha</a>
+        <br>
+        <em>GECCO 2026</em>
+        <br>
+        <a href="https://arxiv.org/abs/2601.03335">PDF</a>
+        <p>TL;DR: We study Digital Red Queen (DRQ), a self-play algorithm in which an LLM repeatedly evolves a new Core War program to defeat every program it produced before. Across rounds the programs get more general against held-out human warriors and less behaviorally diverse across independent runs, converging toward a single general-purpose strategy.</p>
+      </td>
+    </tr>
+
     <!-- Research Project 2 -->
     <tr>
       <td style="padding:16px;width:30%;vertical-align:middle">
-        <img src="images/DNS.png" width="220">
+        <img src="images/DNS.png" width="220" height="175" loading="lazy" decoding="async">
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <span class="papertitle">Dominated Novelty Search: Rethinking Local Competition in Quality-Diversity</span>
         <br>
         <strong>Ryan Bahlous-Boldi*</strong>, Maxence Faldor*, Luca Grillotti, Hannah Janmohamed, Lisa Coiffard, Lee Spector, Antoine Cully
         <br>
-        <em>GECCO 2025</em>, 2025
+        <em>GECCO 2025</em>
         <br>
         <a href="https://arxiv.org/abs/2502.00593">PDF</a> /
         <a href="https://doi.org/10.1145/3712256.3726310">DOI</a>
@@ -117,14 +150,14 @@
     <!-- Research Project 1 -->
     <tr>
       <td style="padding:16px;width:30%;vertical-align:middle">
-        <img src="images/POPL.png" width="220">
+        <img src="images/POPL.png" width="220" height="87" loading="lazy" decoding="async">
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <span class="papertitle">Pareto Optimal Learning from Preferences with Hidden Context</span>
         <br>
         <strong>Ryan Bahlous-Boldi</strong>, Li Ding, Lee Spector, and Scott Niekum
         <br>
-        <em>Reinforcement Learning Journal, vol. 6 (RLC 2025) & Pluralistic Alignment Workshop @ NeurIPS 2024</em>, 2025
+        <em>Reinforcement Learning Journal, vol. 6 (RLC 2025) & Pluralistic Alignment Workshop @ NeurIPS 2024</em>
         <br>
         <a href="https://arxiv.org/abs/2406.15599">PDF</a> /
         <a href="https://rlj.cs.umass.edu/2025/papers/Paper54.html">RLJ</a>
@@ -147,6 +180,16 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             
+            <!-- Dynamic Compression Preprint News Item -->
+            <tr>
+              <td style="padding:8px;width:15%;vertical-align:top">
+                <span style="font-weight:bold;">Aug 18, 2026</span>
+              </td>
+              <td style="padding:8px;width:85%;vertical-align:top">
+                New preprint with <a href="https://jyopari.github.io/">Jyo Pari</a>: <a href="https://arxiv.org/abs/2608.17896">Dynamic Compression in Recurrent Networks</a> is on arXiv. We let a recurrent model revisit past tokens and revise its fixed-size state, trading extra computation for a much smaller state.
+              </td>
+            </tr>
+
             <!-- VPO Preprint News Item -->
             <tr>
               <td style="padding:8px;width:15%;vertical-align:top">
