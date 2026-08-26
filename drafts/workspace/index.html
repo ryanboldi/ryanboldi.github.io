@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ryan Bahlous-Boldi — Research Workspace</title>
+<meta name="description" content="Ryan Bahlous-Boldi, PhD student at MIT working on open-ended and continual learning, reinforcement learning, and evolutionary computation.">
+<meta name="theme-color" content="#0a0c12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%2312151f%22/%3E%3Cpath%20d%3D%22M8%2011l5%205-5%205%22%20stroke%3D%22%234fd6b8%22%20stroke-width%3D%223%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M17%2021h7%22%20stroke%3D%22%237c9dff%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app" id="app">
+
+  <!-- ── title bar ───────────────────────────────────────────── -->
+  <header class="titlebar">
+    <div class="tb-left">
+      <span class="lights" aria-hidden="true"><i class="r"></i><i class="y"></i><i class="g"></i></span>
+      <button class="icon-btn only-narrow" id="drawerBtn" aria-label="Show file list" aria-expanded="false">
+        <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M2 3h12M2 8h12M2 13h12" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <div class="tb-center">
+      <button class="omnibar" id="omnibar" aria-label="Search papers and pages">
+        <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><circle cx="7" cy="7" r="4.4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.4 10.4 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span class="omnibar-text">Search papers, news, links…</span>
+        <kbd class="kbd-hint"><span id="kbdMod">Ctrl</span> K</kbd>
+      </button>
+    </div>
+
+    <div class="tb-right">
+      <span class="tb-file">ryan-bahlous-boldi</span>
+    </div>
+  </header>
+
+  <!-- ── main body ───────────────────────────────────────────── -->
+  <div class="body">
+
+    <div class="scrim" id="scrim" hidden></div>
+
+    <nav class="sidebar" id="sidebar" aria-label="File explorer">
+      <div class="side-head">Explorer</div>
+      <div class="tree" id="tree"></div>
+      <div class="side-foot">
+        <div class="sf-row"><span class="dot ok"></span> workspace ready</div>
+        <div class="sf-row muted">5 papers · 6 updates</div>
+      </div>
+    </nav>
+
+    <main class="editor">
+      <div class="tabstrip" id="tabstrip" role="tablist" aria-label="Open documents"></div>
+      <div class="pane" id="pane" tabindex="-1"></div>
+    </main>
+  </div>
+
+  <!-- ── terminal ────────────────────────────────────────────── -->
+  <section class="terminal" id="terminal" aria-label="Interactive terminal">
+    <div class="term-head">
+      <button class="term-tab active" id="termToggle" aria-expanded="true">
+        <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M3 4l3.5 3.4L3 11M8.5 11.5H13" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Terminal
+      </button>
+      <span class="term-meta">zsh — ~/research</span>
+      <span class="term-hint">try <code>cat vpo</code> or <code>help</code></span>
+    </div>
+    <div class="term-body" id="termBody">
+      <div class="term-out" id="termOut"></div>
+      <div class="term-line" id="termInputLine">
+        <span class="prompt"><span class="p-user">ryan@mit</span><span class="p-path">~/research</span><span class="p-sig">$</span></span>
+        <span class="term-input-wrap">
+          <input id="termInput" class="term-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Terminal command input">
+        </span>
+        <span class="caret" aria-hidden="true"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── status bar ──────────────────────────────────────────── -->
+  <footer class="statusbar">
+    <span class="st-item accent"><svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true"><path d="M5 3v6a3 3 0 003 3h0a3 3 0 003-3V7" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/><circle cx="5" cy="2.6" r="1.5" fill="currentColor"/><circle cx="11" cy="5.6" r="1.5" fill="currentColor"/><circle cx="8" cy="13.2" r="1.5" fill="currentColor"/></svg> open-endedness</span>
+    <span class="st-item">MIT CSAIL · Improbable AI Lab</span>
+    <span class="st-item hide-sm">NSF Graduate Research Fellow</span>
+    <span class="st-sp"></span>
+    <span class="st-item hide-sm" id="stDoc">about.md</span>
+    <span class="st-item hide-sm">UTF-8</span>
+    <span class="st-item" id="stClock">--:--</span><span class="st-item hide-sm">Cambridge, MA</span>
+  </footer>
+
+</div>
+
+<!-- ── command palette ───────────────────────────────────────── -->
+<div class="palette-wrap" id="paletteWrap" hidden>
+  <div class="palette" role="dialog" aria-modal="true" aria-label="Command palette">
+    <div class="pal-input-row">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="4.4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.4 10.4 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input id="palInput" type="text" placeholder="Go to a paper, an update, a link…" autocomplete="off" spellcheck="false" aria-label="Search">
+      <kbd class="kbd-hint">Esc</kbd>
+    </div>
+    <ul class="pal-list" id="palList" role="listbox" aria-label="Results"></ul>
+    <div class="pal-foot"><kbd>↑</kbd><kbd>↓</kbd> navigate <kbd>↵</kbd> open <kbd>Esc</kbd> close</div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
