@@ -10,9 +10,16 @@ Inspiration was two sites Ryan pointed at:
 - harinsrikanth.com — Georgia at 15px on white, a narrow centred measure, plain
   paragraphs, a small row of links.
 
-What it contains: the three bio paragraphs from the live homepage, a single link row,
-all fourteen publications grouped into the same five sections `publications.html` uses,
-and the five most recent news items.
+Two pages:
+
+- `index.html` - bio, one link row, "Recent work" (the two most recent papers), recent
+  news, and a photo at the bottom.
+- `papers.html` - all fourteen publications, grouped into the same five sections
+  `publications.html` already uses.
+
+The photo is the existing portrait. It is square, so it sits taller in the column than
+the landscape photo on harinsrikanth.com; swap it for something wider or more personal
+if that reads better.
 
 Everything is generated from the live pages rather than retyped, so the wording matches.
 It is a draft: not linked from the live site and not served by it.
